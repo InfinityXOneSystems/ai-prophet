@@ -1,0 +1,259 @@
+{
+  "cycle": 3,
+  "start_time": "2026-01-11T10:07:33.592248",
+  "stages": {
+    "data_update": {
+      "status": "complete"
+    },
+    "session_analysis": {
+      "current_time": "2026-01-11T10:07:33.592604",
+      "stock_session": {
+        "active": true,
+        "session": "opening_bell",
+        "volatility": "high",
+        "volume": "high",
+        "risk_multiplier": 1.0,
+        "strategies": [
+          "momentum",
+          "breakout",
+          "gap_fade"
+        ]
+      },
+      "crypto_session": {
+        "active": true,
+        "session": "crypto_european",
+        "volatility": "high",
+        "volume": "high",
+        "risk_multiplier": 0.9,
+        "strategies": [
+          "breakout",
+          "trend_following"
+        ]
+      }
+    },
+    "stop_check": {
+      "open_positions": 5
+    },
+    "predictions": {
+      "count": 16,
+      "predictions": [
+        {
+          "symbol": "BTC",
+          "asset_class": "crypto",
+          "current_price": 45161.507972839965,
+          "direction": "LONG",
+          "confidence": 0.8845818722951294,
+          "target_price": 45977.75123244592,
+          "stop_loss": 44642.51939166265,
+          "timestamp": "2026-01-11T10:07:33.592711"
+        },
+        {
+          "symbol": "ETH",
+          "asset_class": "crypto",
+          "current_price": 2481.0797123073507,
+          "direction": "SHORT",
+          "confidence": 0.8502922546483811,
+          "target_price": 2450.695001258823,
+          "stop_loss": 2514.867524435213,
+          "timestamp": "2026-01-11T10:07:33.592717"
+        },
+        {
+          "symbol": "SOL",
+          "asset_class": "crypto",
+          "current_price": 98.85406692905579,
+          "direction": "LONG",
+          "confidence": 0.8007718537925441,
+          "target_price": 100.02322449496737,
+          "stop_loss": 97.48407342868178,
+          "timestamp": "2026-01-11T10:07:33.592722"
+        },
+        {
+          "symbol": "XRP",
+          "asset_class": "crypto",
+          "current_price": 0.6007557564746561,
+          "direction": "NEUTRAL",
+          "confidence": 0.868488348629846,
+          "target_price": 0.6007557564746561,
+          "stop_loss": 0.6007557564746561,
+          "timestamp": "2026-01-11T10:07:33.592725"
+        },
+        {
+          "symbol": "DOGE",
+          "asset_class": "crypto",
+          "current_price": 0.0812887867429428,
+          "direction": "NEUTRAL",
+          "confidence": 0.8442647730825412,
+          "target_price": 0.0812887867429428,
+          "stop_loss": 0.0812887867429428,
+          "timestamp": "2026-01-11T10:07:33.592729"
+        },
+        {
+          "symbol": "ADA",
+          "asset_class": "crypto",
+          "current_price": 0.49778100859250307,
+          "direction": "NEUTRAL",
+          "confidence": 0.6155568712050605,
+          "target_price": 0.49778100859250307,
+          "stop_loss": 0.49778100859250307,
+          "timestamp": "2026-01-11T10:07:33.592732"
+        },
+        {
+          "symbol": "AVAX",
+          "asset_class": "crypto",
+          "current_price": 34.566662501213216,
+          "direction": "NEUTRAL",
+          "confidence": 0.677333619928051,
+          "target_price": 34.566662501213216,
+          "stop_loss": 34.566662501213216,
+          "timestamp": "2026-01-11T10:07:33.592735"
+        },
+        {
+          "symbol": "LINK",
+          "asset_class": "crypto",
+          "current_price": 15.166759444554561,
+          "direction": "SHORT",
+          "confidence": 0.5699824675547283,
+          "target_price": 14.745558455283948,
+          "stop_loss": 15.37759557156201,
+          "timestamp": "2026-01-11T10:07:33.592739"
+        },
+        {
+          "symbol": "SPY",
+          "asset_class": "stocks",
+          "current_price": 487.04028417429424,
+          "direction": "LONG",
+          "confidence": 0.8623612171447214,
+          "target_price": 498.3337729585351,
+          "stop_loss": 480.2878502999057,
+          "timestamp": "2026-01-11T10:07:33.592744"
+        },
+        {
+          "symbol": "QQQ",
+          "asset_class": "stocks",
+          "current_price": 403.5273698670843,
+          "direction": "NEUTRAL",
+          "confidence": 0.5049579272554895,
+          "target_price": 403.5273698670843,
+          "stop_loss": 403.5273698670843,
+          "timestamp": "2026-01-11T10:07:33.592747"
+        },
+        {
+          "symbol": "TSLA",
+          "asset_class": "stocks",
+          "current_price": 250.9684809279552,
+          "direction": "NEUTRAL",
+          "confidence": 0.9110442060204298,
+          "target_price": 250.9684809279552,
+          "stop_loss": 250.9684809279552,
+          "timestamp": "2026-01-11T10:07:33.592750"
+        },
+        {
+          "symbol": "NVDA",
+          "asset_class": "stocks",
+          "current_price": 497.259061958991,
+          "direction": "LONG",
+          "confidence": 0.5443937413173273,
+          "target_price": 505.0851360587272,
+          "stop_loss": 493.9939988810354,
+          "timestamp": "2026-01-11T10:07:33.592753"
+        },
+        {
+          "symbol": "AMD",
+          "asset_class": "stocks",
+          "current_price": 140.31032015438342,
+          "direction": "LONG",
+          "confidence": 0.7930938787743708,
+          "target_price": 143.1532417850583,
+          "stop_loss": 138.90519393276057,
+          "timestamp": "2026-01-11T10:07:33.592757"
+        },
+        {
+          "symbol": "AAPL",
+          "asset_class": "stocks",
+          "current_price": 186.90872264435276,
+          "direction": "SHORT",
+          "confidence": 0.7893564173706802,
+          "target_price": 183.89821444003314,
+          "stop_loss": 189.02867082059157,
+          "timestamp": "2026-01-11T10:07:33.592760"
+        },
+        {
+          "symbol": "AMZN",
+          "asset_class": "stocks",
+          "current_price": 151.57094897556527,
+          "direction": "LONG",
+          "confidence": 0.7435139618003254,
+          "target_price": 153.20382714132074,
+          "stop_loss": 149.43977177562226,
+          "timestamp": "2026-01-11T10:07:33.592763"
+        },
+        {
+          "symbol": "META",
+          "asset_class": "stocks",
+          "current_price": 353.99062405145355,
+          "direction": "SHORT",
+          "confidence": 0.8754192507853755,
+          "target_price": 347.9001199199581,
+          "stop_loss": 358.54886104810373,
+          "timestamp": "2026-01-11T10:07:33.592766"
+        }
+      ]
+    },
+    "trades": {
+      "executed": 0,
+      "trades": []
+    },
+    "reflection": {
+      "status": "no_trades_to_analyze"
+    },
+    "learning": {
+      "win_rate": 0,
+      "profit_factor": Infinity,
+      "adjustments": [
+        "Increase confidence threshold"
+      ]
+    }
+  },
+  "summary": {
+    "date": "2026-01-11",
+    "portfolio_value": 100000.0,
+    "daily_pnl": 0.0,
+    "daily_pnl_pct": 0.0,
+    "total_trades": 0,
+    "winning_trades": 0,
+    "losing_trades": 0,
+    "win_rate": 0,
+    "profit_factor": Infinity,
+    "largest_win": 0,
+    "largest_loss": 0,
+    "open_positions": 5,
+    "current_session": {
+      "current_time": "2026-01-11T10:07:33.593054",
+      "stock_session": {
+        "active": true,
+        "session": "opening_bell",
+        "volatility": "high",
+        "volume": "high",
+        "risk_multiplier": 1.0,
+        "strategies": [
+          "momentum",
+          "breakout",
+          "gap_fade"
+        ]
+      },
+      "crypto_session": {
+        "active": true,
+        "session": "crypto_european",
+        "volatility": "high",
+        "volume": "high",
+        "risk_multiplier": 0.9,
+        "strategies": [
+          "breakout",
+          "trend_following"
+        ]
+      }
+    }
+  },
+  "end_time": "2026-01-11T10:07:33.593244",
+  "duration_seconds": 0.000999
+}
