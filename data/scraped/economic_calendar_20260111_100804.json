@@ -1,0 +1,14 @@
+[
+  {
+    "source_type": "economic_calendar",
+    "source_url": "economic://calendar",
+    "timestamp": "2026-01-11T10:08:04.175281",
+    "data": {
+      "events": [],
+      "high_impact": [],
+      "fed_events": [],
+      "earnings": []
+    },
+    "confidence": 0.9
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "date": "2026-01-11T10:07:39.956534",
+  "pipeline_status": "error",
+  "stages": {},
+  "error": "'DailyScraperPipeline' object has no attribute 'run_daily_scrape'"
+}

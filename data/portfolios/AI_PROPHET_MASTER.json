@@ -1,0 +1,31 @@
+{
+  "portfolio_id": "AI_PROPHET_MASTER",
+  "owner_id": "AI_PROPHET",
+  "initial_capital": 1000000.0,
+  "trading_mode": "full_auto",
+  "is_ai_portfolio": true,
+  "created_at": "2026-01-11T10:07:39.955253",
+  "positions": {},
+  "open_orders": [],
+  "recent_trades": [],
+  "stats": {
+    "total_value": 1000000.0,
+    "cash_balance": 1000000.0,
+    "positions_value": 0.0,
+    "total_pnl": 0.0,
+    "total_pnl_pct": 0.0,
+    "realized_pnl": 0.0,
+    "unrealized_pnl": 0,
+    "win_rate": 0,
+    "total_trades": 0,
+    "winning_trades": 0,
+    "losing_trades": 0,
+    "avg_win": 0.0,
+    "avg_loss": 0.0,
+    "profit_factor": 0.0,
+    "sharpe_ratio": 0.0,
+    "max_drawdown": 0.0,
+    "best_trade": 0.0,
+    "worst_trade": 0.0
+  }
+}

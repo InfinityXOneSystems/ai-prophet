@@ -1,0 +1,348 @@
+{
+  "timeline_id": "TL-0ce75f45",
+  "timeline_type": "base_case",
+  "target_asset": "BTC",
+  "start_date": "2026-01-11T10:08:04.179386",
+  "end_date": "2026-02-10T10:08:04.179386",
+  "probability": 0.5,
+  "description": "Base_Case scenario for BTC",
+  "theory_basis": "Momentum Theory, Behavioral Finance",
+  "states": [
+    {
+      "timestamp": "2026-01-11T10:08:04.179386",
+      "price": 44721.74004767794,
+      "volume": 849930004.2655985,
+      "sentiment": 0.46621290564832474,
+      "volatility": 0.04298952856347588,
+      "momentum": 0.003093134633360652,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-12T10:08:04.179386",
+      "price": 43675.063919440254,
+      "volume": 879213007.4546194,
+      "sentiment": -0.06350073759569874,
+      "volatility": 0.03225029549189146,
+      "momentum": -0.003903184774216406,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-13T10:08:04.179386",
+      "price": 43709.8456610308,
+      "volume": 574015079.3232577,
+      "sentiment": -0.4778468848062428,
+      "volatility": 0.011457104491406814,
+      "momentum": -0.004372011269779448,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-14T10:08:04.179386",
+      "price": 44643.50000129752,
+      "volume": 517349627.21292746,
+      "sentiment": 0.28244609910840646,
+      "volatility": 0.026195810366247317,
+      "momentum": 0.004536132971794486,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-15T10:08:04.179386",
+      "price": 45868.85112468724,
+      "volume": 225265214.62532467,
+      "sentiment": -0.03254491089979039,
+      "volatility": 0.0306228170878058,
+      "momentum": -0.0022402664332773193,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-16T10:08:04.179386",
+      "price": 46062.95078082502,
+      "volume": 114497338.00124554,
+      "sentiment": 0.25489863164595283,
+      "volatility": 0.046507864705144876,
+      "momentum": 0.0021466784810820925,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-17T10:08:04.179386",
+      "price": 45768.3243938634,
+      "volume": 832173367.3627577,
+      "sentiment": 0.34165012212908485,
+      "volatility": 0.03894257043216121,
+      "momentum": -0.0015751149166907054,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-18T10:08:04.179386",
+      "price": 45513.12907141079,
+      "volume": 943629953.1126289,
+      "sentiment": -0.031143313107837578,
+      "volatility": 0.02928449177345018,
+      "momentum": -0.002799996638336121,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-19T10:08:04.179386",
+      "price": 42161.26909334585,
+      "volume": 483628276.5627771,
+      "sentiment": -0.05952205307604097,
+      "volatility": 0.041557375591583914,
+      "momentum": 0.004803739326395083,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-20T10:08:04.179386",
+      "price": 43124.883491554116,
+      "volume": 687416997.2204995,
+      "sentiment": -0.48753100097330615,
+      "volatility": 0.031343110548249384,
+      "momentum": 0.0024930887362423658,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-21T10:08:04.179386",
+      "price": 43826.47247767531,
+      "volume": 92881457.7484214,
+      "sentiment": -0.4395902534347539,
+      "volatility": 0.014946448693296067,
+      "momentum": -0.0031774478748767643,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-22T10:08:04.179386",
+      "price": 43301.03633567579,
+      "volume": 493540937.42835313,
+      "sentiment": -0.32392420396857546,
+      "volatility": 0.042666698469587545,
+      "momentum": -0.004049049820771191,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-23T10:08:04.179386",
+      "price": 42688.2509681621,
+      "volume": 655816506.9776744,
+      "sentiment": 0.14320153071289754,
+      "volatility": 0.017949582880805955,
+      "momentum": -0.001240803150193006,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-24T10:08:04.179386",
+      "price": 43319.15332433239,
+      "volume": 204581217.6979678,
+      "sentiment": 0.36235720804907334,
+      "volatility": 0.026573509802748675,
+      "momentum": 0.003030945494798434,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-25T10:08:04.179386",
+      "price": 44152.63178059542,
+      "volume": 499123226.7273684,
+      "sentiment": -0.11570506281010617,
+      "volatility": 0.020532982648801885,
+      "momentum": -0.0034009328703571576,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-26T10:08:04.179386",
+      "price": 45194.92295341863,
+      "volume": 596100475.9837815,
+      "sentiment": -0.3987102496024164,
+      "volatility": 0.0245505403490986,
+      "momentum": 0.0012184241506829445,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-27T10:08:04.179386",
+      "price": 43840.574141240155,
+      "volume": 463144341.1187899,
+      "sentiment": -0.3970026514547178,
+      "volatility": 0.0460810192409688,
+      "momentum": 0.0021591289489827133,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-28T10:08:04.179386",
+      "price": 43467.8887273207,
+      "volume": 278120818.561919,
+      "sentiment": 0.19996861623936002,
+      "volatility": 0.030489784070369855,
+      "momentum": -0.00023761869691093368,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-29T10:08:04.179386",
+      "price": 42792.061618178865,
+      "volume": 197398101.17472848,
+      "sentiment": -0.12087846653652523,
+      "volatility": 0.015650125136250574,
+      "momentum": -0.00036549760803096434,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-30T10:08:04.179386",
+      "price": 42562.88615303386,
+      "volume": 677580872.9922322,
+      "sentiment": -0.2501188359678097,
+      "volatility": 0.022881672674230233,
+      "momentum": -0.001988192698493706,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-31T10:08:04.179386",
+      "price": 45094.0459947672,
+      "volume": 18825511.172384415,
+      "sentiment": -0.40181105957384344,
+      "volatility": 0.026991537503552272,
+      "momentum": -0.0009763231677362063,
+      "events": []
+    },
+    {
+      "timestamp": "2026-02-01T10:08:04.179386",
+      "price": 45933.54250991523,
+      "volume": 633685770.210952,
+      "sentiment": 0.4503331338988329,
+      "volatility": 0.016065650773373852,
+      "momentum": 0.004269876177114181,
+      "events": []
+    },
+    {
+      "timestamp": "2026-02-02T10:08:04.179386",
+      "price": 48088.25804721501,
+      "volume": 4363732.9660964245,
+      "sentiment": 0.47904376845754926,
+      "volatility": 0.049888520820420154,
+      "momentum": -0.0021618766487326337,
+      "events": []
+    },
+    {
+      "timestamp": "2026-02-03T10:08:04.179386",
+      "price": 48145.05213079607,
+      "volume": 946077971.8597324,
+      "sentiment": 0.3830376376574025,
+      "volatility": 0.015553491915689763,
+      "momentum": -0.0010807823186380818,
+      "events": []
+    },
+    {
+      "timestamp": "2026-02-04T10:08:04.179386",
+      "price": 47341.21870368581,
+      "volume": 381486501.449232,
+      "sentiment": -0.42288781984047497,
+      "volatility": 0.02571946421936199,
+      "momentum": -0.003856059413980718,
+      "events": []
+    },
+    {
+      "timestamp": "2026-02-05T10:08:04.179386",
+      "price": 47080.66697901656,
+      "volume": 262777924.87581408,
+      "sentiment": -0.3440936505405583,
+      "volatility": 0.020798347305448873,
+      "momentum": 0.004713576661235039,
+      "events": []
+    },
+    {
+      "timestamp": "2026-02-06T10:08:04.179386",
+      "price": 47498.681218689344,
+      "volume": 701339865.0162323,
+      "sentiment": -0.2588217639569509,
+      "volatility": 0.04349035433437219,
+      "momentum": 0.0019235785380143392,
+      "events": []
+    },
+    {
+      "timestamp": "2026-02-07T10:08:04.179386",
+      "price": 47195.94728272596,
+      "volume": 908586937.7527381,
+      "sentiment": -0.23617109164745564,
+      "volatility": 0.024418095783068992,
+      "momentum": -0.0005563002588035784,
+      "events": []
+    },
+    {
+      "timestamp": "2026-02-08T10:08:04.179386",
+      "price": 47107.648265081625,
+      "volume": 320358191.5734895,
+      "sentiment": 0.4211024380347589,
+      "volatility": 0.01094906194486374,
+      "momentum": -0.0017209844955993572,
+      "events": []
+    },
+    {
+      "timestamp": "2026-02-09T10:08:04.179386",
+      "price": 49621.144998838594,
+      "volume": 983339993.0586538,
+      "sentiment": -0.3524653886909386,
+      "volatility": 0.035674916321087234,
+      "momentum": 0.0022996866277861204,
+      "events": []
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "EVT-11e6d61d",
+      "event_type": "technological",
+      "timestamp": "2026-01-13T10:08:04.179386",
+      "description": "Generic event",
+      "impact_magnitude": 0.043377626029340255,
+      "probability": 0.8365578813424539,
+      "affected_assets": [
+        "BTC"
+      ]
+    },
+    {
+      "event_id": "EVT-f326252e",
+      "event_type": "sentiment_shift",
+      "timestamp": "2026-01-12T10:08:04.179386",
+      "description": "Generic event",
+      "impact_magnitude": -0.4835147484109402,
+      "probability": 0.6500479419741818,
+      "affected_assets": [
+        "BTC"
+      ]
+    },
+    {
+      "event_id": "EVT-6e77f8b9",
+      "event_type": "whale_movement",
+      "timestamp": "2026-01-15T10:08:04.179386",
+      "description": "Whale distribution pattern",
+      "impact_magnitude": 0.09958699681148853,
+      "probability": 0.676369480294617,
+      "affected_assets": [
+        "BTC"
+      ]
+    },
+    {
+      "event_id": "EVT-adaa5c2b",
+      "event_type": "regulatory",
+      "timestamp": "2026-01-29T10:08:04.179386",
+      "description": "Generic event",
+      "impact_magnitude": 0.0863143342704571,
+      "probability": 0.8402086782076077,
+      "affected_assets": [
+        "BTC"
+      ]
+    },
+    {
+      "event_id": "EVT-3ddfcabc",
+      "event_type": "whale_movement",
+      "timestamp": "2026-02-01T10:08:04.179386",
+      "description": "Whale distribution pattern",
+      "impact_magnitude": 0.04085568179407362,
+      "probability": 0.7831394998015953,
+      "affected_assets": [
+        "BTC"
+      ]
+    }
+  ],
+  "final_prediction": {
+    "price": 49621.144998838594,
+    "change_pct": 10.269211108530207,
+    "direction": "UP"
+  },
+  "created_at": "2026-01-11T10:08:04.179781",
+  "actual_outcome": null,
+  "accuracy_score": null,
+  "reflection": null
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "source_type": "financial_news",
+    "source_url": "https://finance.yahoo.com/news/",
+    "timestamp": "2026-01-11T10:08:04.174445",
+    "data": {
+      "headlines": [],
+      "articles": [],
+      "sentiment": "neutral"
+    },
+    "confidence": 0.85
+  },
+  {
+    "source_type": "financial_news",
+    "source_url": "https://www.bloomberg.com/markets",
+    "timestamp": "2026-01-11T10:08:04.174520",
+    "data": {
+      "headlines": [],
+      "articles": [],
+      "sentiment": "neutral"
+    },
+    "confidence": 0.85
+  },
+  {
+    "source_type": "financial_news",
+    "source_url": "https://www.reuters.com/markets/",
+    "timestamp": "2026-01-11T10:08:04.174566",
+    "data": {
+      "headlines": [],
+      "articles": [],
+      "sentiment": "neutral"
+    },
+    "confidence": 0.85
+  },
+  {
+    "source_type": "financial_news",
+    "source_url": "https://www.cnbc.com/world-markets/",
+    "timestamp": "2026-01-11T10:08:04.174607",
+    "data": {
+      "headlines": [],
+      "articles": [],
+      "sentiment": "neutral"
+    },
+    "confidence": 0.85
+  },
+  {
+    "source_type": "financial_news",
+    "source_url": "https://www.marketwatch.com/latest-news",
+    "timestamp": "2026-01-11T10:08:04.174650",
+    "data": {
+      "headlines": [],
+      "articles": [],
+      "sentiment": "neutral"
+    },
+    "confidence": 0.85
+  },
+  {
+    "source_type": "financial_news",
+    "source_url": "https://seekingalpha.com/market-news",
+    "timestamp": "2026-01-11T10:08:04.174684",
+    "data": {
+      "headlines": [],
+      "articles": [],
+      "sentiment": "neutral"
+    },
+    "confidence": 0.85
+  },
+  {
+    "source_type": "financial_news",
+    "source_url": "https://www.investing.com/news/",
+    "timestamp": "2026-01-11T10:08:04.174730",
+    "data": {
+      "headlines": [],
+      "articles": [],
+      "sentiment": "neutral"
+    },
+    "confidence": 0.85
+  },
+  {
+    "source_type": "financial_news",
+    "source_url": "https://www.ft.com/markets",
+    "timestamp": "2026-01-11T10:08:04.174764",
+    "data": {
+      "headlines": [],
+      "articles": [],
+      "sentiment": "neutral"
+    },
+    "confidence": 0.85
+  }
+]

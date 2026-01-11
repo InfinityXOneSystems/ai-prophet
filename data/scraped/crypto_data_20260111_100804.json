@@ -1,0 +1,322 @@
+[
+  {
+    "source_type": "crypto_data",
+    "source_url": "crypto://BTC",
+    "timestamp": "2026-01-11T10:08:04.174817",
+    "data": {
+      "symbol": "BTC",
+      "price": 0.0,
+      "volume_24h": 0.0,
+      "market_cap": 0.0,
+      "change_24h": 0.0,
+      "change_7d": 0.0,
+      "patterns": [],
+      "on_chain_metrics": {}
+    },
+    "confidence": 0.9
+  },
+  {
+    "source_type": "crypto_data",
+    "source_url": "crypto://ETH",
+    "timestamp": "2026-01-11T10:08:04.174821",
+    "data": {
+      "symbol": "ETH",
+      "price": 0.0,
+      "volume_24h": 0.0,
+      "market_cap": 0.0,
+      "change_24h": 0.0,
+      "change_7d": 0.0,
+      "patterns": [],
+      "on_chain_metrics": {}
+    },
+    "confidence": 0.9
+  },
+  {
+    "source_type": "crypto_data",
+    "source_url": "crypto://BNB",
+    "timestamp": "2026-01-11T10:08:04.174825",
+    "data": {
+      "symbol": "BNB",
+      "price": 0.0,
+      "volume_24h": 0.0,
+      "market_cap": 0.0,
+      "change_24h": 0.0,
+      "change_7d": 0.0,
+      "patterns": [],
+      "on_chain_metrics": {}
+    },
+    "confidence": 0.9
+  },
+  {
+    "source_type": "crypto_data",
+    "source_url": "crypto://XRP",
+    "timestamp": "2026-01-11T10:08:04.174827",
+    "data": {
+      "symbol": "XRP",
+      "price": 0.0,
+      "volume_24h": 0.0,
+      "market_cap": 0.0,
+      "change_24h": 0.0,
+      "change_7d": 0.0,
+      "patterns": [],
+      "on_chain_metrics": {}
+    },
+    "confidence": 0.9
+  },
+  {
+    "source_type": "crypto_data",
+    "source_url": "crypto://ADA",
+    "timestamp": "2026-01-11T10:08:04.174830",
+    "data": {
+      "symbol": "ADA",
+      "price": 0.0,
+      "volume_24h": 0.0,
+      "market_cap": 0.0,
+      "change_24h": 0.0,
+      "change_7d": 0.0,
+      "patterns": [],
+      "on_chain_metrics": {}
+    },
+    "confidence": 0.9
+  },
+  {
+    "source_type": "crypto_data",
+    "source_url": "crypto://SOL",
+    "timestamp": "2026-01-11T10:08:04.174833",
+    "data": {
+      "symbol": "SOL",
+      "price": 0.0,
+      "volume_24h": 0.0,
+      "market_cap": 0.0,
+      "change_24h": 0.0,
+      "change_7d": 0.0,
+      "patterns": [],
+      "on_chain_metrics": {}
+    },
+    "confidence": 0.9
+  },
+  {
+    "source_type": "crypto_data",
+    "source_url": "crypto://DOGE",
+    "timestamp": "2026-01-11T10:08:04.174836",
+    "data": {
+      "symbol": "DOGE",
+      "price": 0.0,
+      "volume_24h": 0.0,
+      "market_cap": 0.0,
+      "change_24h": 0.0,
+      "change_7d": 0.0,
+      "patterns": [],
+      "on_chain_metrics": {}
+    },
+    "confidence": 0.9
+  },
+  {
+    "source_type": "crypto_data",
+    "source_url": "crypto://DOT",
+    "timestamp": "2026-01-11T10:08:04.174840",
+    "data": {
+      "symbol": "DOT",
+      "price": 0.0,
+      "volume_24h": 0.0,
+      "market_cap": 0.0,
+      "change_24h": 0.0,
+      "change_7d": 0.0,
+      "patterns": [],
+      "on_chain_metrics": {}
+    },
+    "confidence": 0.9
+  },
+  {
+    "source_type": "crypto_data",
+    "source_url": "crypto://MATIC",
+    "timestamp": "2026-01-11T10:08:04.174849",
+    "data": {
+      "symbol": "MATIC",
+      "price": 0.0,
+      "volume_24h": 0.0,
+      "market_cap": 0.0,
+      "change_24h": 0.0,
+      "change_7d": 0.0,
+      "patterns": [],
+      "on_chain_metrics": {}
+    },
+    "confidence": 0.9
+  },
+  {
+    "source_type": "crypto_data",
+    "source_url": "crypto://AVAX",
+    "timestamp": "2026-01-11T10:08:04.174852",
+    "data": {
+      "symbol": "AVAX",
+      "price": 0.0,
+      "volume_24h": 0.0,
+      "market_cap": 0.0,
+      "change_24h": 0.0,
+      "change_7d": 0.0,
+      "patterns": [],
+      "on_chain_metrics": {}
+    },
+    "confidence": 0.9
+  },
+  {
+    "source_type": "crypto_data",
+    "source_url": "crypto://LINK",
+    "timestamp": "2026-01-11T10:08:04.174855",
+    "data": {
+      "symbol": "LINK",
+      "price": 0.0,
+      "volume_24h": 0.0,
+      "market_cap": 0.0,
+      "change_24h": 0.0,
+      "change_7d": 0.0,
+      "patterns": [],
+      "on_chain_metrics": {}
+    },
+    "confidence": 0.9
+  },
+  {
+    "source_type": "crypto_data",
+    "source_url": "crypto://UNI",
+    "timestamp": "2026-01-11T10:08:04.174857",
+    "data": {
+      "symbol": "UNI",
+      "price": 0.0,
+      "volume_24h": 0.0,
+      "market_cap": 0.0,
+      "change_24h": 0.0,
+      "change_7d": 0.0,
+      "patterns": [],
+      "on_chain_metrics": {}
+    },
+    "confidence": 0.9
+  },
+  {
+    "source_type": "crypto_data",
+    "source_url": "crypto://ATOM",
+    "timestamp": "2026-01-11T10:08:04.174860",
+    "data": {
+      "symbol": "ATOM",
+      "price": 0.0,
+      "volume_24h": 0.0,
+      "market_cap": 0.0,
+      "change_24h": 0.0,
+      "change_7d": 0.0,
+      "patterns": [],
+      "on_chain_metrics": {}
+    },
+    "confidence": 0.9
+  },
+  {
+    "source_type": "crypto_data",
+    "source_url": "crypto://LTC",
+    "timestamp": "2026-01-11T10:08:04.174862",
+    "data": {
+      "symbol": "LTC",
+      "price": 0.0,
+      "volume_24h": 0.0,
+      "market_cap": 0.0,
+      "change_24h": 0.0,
+      "change_7d": 0.0,
+      "patterns": [],
+      "on_chain_metrics": {}
+    },
+    "confidence": 0.9
+  },
+  {
+    "source_type": "crypto_data",
+    "source_url": "crypto://ETC",
+    "timestamp": "2026-01-11T10:08:04.174864",
+    "data": {
+      "symbol": "ETC",
+      "price": 0.0,
+      "volume_24h": 0.0,
+      "market_cap": 0.0,
+      "change_24h": 0.0,
+      "change_7d": 0.0,
+      "patterns": [],
+      "on_chain_metrics": {}
+    },
+    "confidence": 0.9
+  },
+  {
+    "source_type": "crypto_data",
+    "source_url": "crypto://XLM",
+    "timestamp": "2026-01-11T10:08:04.174866",
+    "data": {
+      "symbol": "XLM",
+      "price": 0.0,
+      "volume_24h": 0.0,
+      "market_cap": 0.0,
+      "change_24h": 0.0,
+      "change_7d": 0.0,
+      "patterns": [],
+      "on_chain_metrics": {}
+    },
+    "confidence": 0.9
+  },
+  {
+    "source_type": "crypto_data",
+    "source_url": "crypto://ALGO",
+    "timestamp": "2026-01-11T10:08:04.174868",
+    "data": {
+      "symbol": "ALGO",
+      "price": 0.0,
+      "volume_24h": 0.0,
+      "market_cap": 0.0,
+      "change_24h": 0.0,
+      "change_7d": 0.0,
+      "patterns": [],
+      "on_chain_metrics": {}
+    },
+    "confidence": 0.9
+  },
+  {
+    "source_type": "crypto_data",
+    "source_url": "crypto://VET",
+    "timestamp": "2026-01-11T10:08:04.174871",
+    "data": {
+      "symbol": "VET",
+      "price": 0.0,
+      "volume_24h": 0.0,
+      "market_cap": 0.0,
+      "change_24h": 0.0,
+      "change_7d": 0.0,
+      "patterns": [],
+      "on_chain_metrics": {}
+    },
+    "confidence": 0.9
+  },
+  {
+    "source_type": "crypto_data",
+    "source_url": "crypto://FIL",
+    "timestamp": "2026-01-11T10:08:04.174874",
+    "data": {
+      "symbol": "FIL",
+      "price": 0.0,
+      "volume_24h": 0.0,
+      "market_cap": 0.0,
+      "change_24h": 0.0,
+      "change_7d": 0.0,
+      "patterns": [],
+      "on_chain_metrics": {}
+    },
+    "confidence": 0.9
+  },
+  {
+    "source_type": "crypto_data",
+    "source_url": "crypto://THETA",
+    "timestamp": "2026-01-11T10:08:04.174876",
+    "data": {
+      "symbol": "THETA",
+      "price": 0.0,
+      "volume_24h": 0.0,
+      "market_cap": 0.0,
+      "change_24h": 0.0,
+      "change_7d": 0.0,
+      "patterns": [],
+      "on_chain_metrics": {}
+    },
+    "confidence": 0.9
+  }
+]

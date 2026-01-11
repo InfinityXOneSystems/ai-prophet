@@ -1,0 +1,348 @@
+{
+  "timeline_id": "TL-8e302d8f",
+  "timeline_type": "pessimistic",
+  "target_asset": "BNB",
+  "start_date": "2026-01-11T10:08:04.201730",
+  "end_date": "2026-02-10T10:08:04.201730",
+  "probability": 0.2,
+  "description": "Pessimistic scenario for BNB",
+  "theory_basis": "Fundamental Analysis, Technical Analysis",
+  "states": [
+    {
+      "timestamp": "2026-01-11T10:08:04.201730",
+      "price": 309.7280932098013,
+      "volume": 176684867.2818796,
+      "sentiment": -0.452704732451502,
+      "volatility": 0.03049483787772802,
+      "momentum": -0.01863792281721361,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-12T10:08:04.201730",
+      "price": 285.6286358253084,
+      "volume": 245408069.9240419,
+      "sentiment": 0.3355712080370534,
+      "volatility": 0.03987552632100262,
+      "momentum": -0.012591860720540953,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-13T10:08:04.201730",
+      "price": 277.26053022123506,
+      "volume": 542487338.4789132,
+      "sentiment": 0.1347439238560807,
+      "volatility": 0.04566802326656235,
+      "momentum": -0.006347435333724758,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-14T10:08:04.201730",
+      "price": 277.3616014530977,
+      "volume": 426587037.24661726,
+      "sentiment": -0.34793099468608024,
+      "volatility": 0.038171089910328686,
+      "momentum": -0.013197138578033826,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-15T10:08:04.201730",
+      "price": 283.35648575386284,
+      "volume": 398282047.3642197,
+      "sentiment": 0.3387145413974134,
+      "volatility": 0.025076850867204313,
+      "momentum": -0.0010852453272689466,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-16T10:08:04.201730",
+      "price": 292.2909573871471,
+      "volume": 851198865.43094,
+      "sentiment": -0.3820959165863924,
+      "volatility": 0.04520830704366939,
+      "momentum": -0.006328359544786678,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-17T10:08:04.201730",
+      "price": 290.5130694684884,
+      "volume": 224958685.1708148,
+      "sentiment": 0.03750384179336652,
+      "volatility": 0.022511495043340567,
+      "momentum": -0.0016324458010841293,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-18T10:08:04.201730",
+      "price": 290.8448660564797,
+      "volume": 387764389.5363589,
+      "sentiment": -0.04004524065669268,
+      "volatility": 0.013726370083159752,
+      "momentum": -0.012378828779748524,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-19T10:08:04.201730",
+      "price": 290.7928593348747,
+      "volume": 687374289.278624,
+      "sentiment": 0.04416142333088657,
+      "volatility": 0.01191273305401527,
+      "momentum": -0.012558810261553515,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-20T10:08:04.201730",
+      "price": 293.07197921282494,
+      "volume": 526536917.61022353,
+      "sentiment": 0.47461926218029515,
+      "volatility": 0.04000875995548157,
+      "momentum": -0.017893046676061293,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-21T10:08:04.201730",
+      "price": 286.89578570359663,
+      "volume": 513974970.2221729,
+      "sentiment": 0.44180375299724994,
+      "volatility": 0.02866211174139347,
+      "momentum": -0.019730050361371806,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-22T10:08:04.201730",
+      "price": 292.0636198579914,
+      "volume": 70930470.64930364,
+      "sentiment": -0.33438628154580985,
+      "volatility": 0.03655701500553708,
+      "momentum": -0.0018469870706971613,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-23T10:08:04.201730",
+      "price": 303.8414095980319,
+      "volume": 108995733.17168361,
+      "sentiment": 0.10238406596762895,
+      "volatility": 0.04756398125061342,
+      "momentum": -0.010447382074893376,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-24T10:08:04.201730",
+      "price": 286.8056903270255,
+      "volume": 230998096.2644852,
+      "sentiment": -0.3366178921436551,
+      "volatility": 0.03866765139836003,
+      "momentum": -0.019984865343272512,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-25T10:08:04.201730",
+      "price": 275.5897711765254,
+      "volume": 601561496.7086198,
+      "sentiment": 0.08563324733882238,
+      "volatility": 0.03552979832691577,
+      "momentum": -0.006921132830344819,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-26T10:08:04.201730",
+      "price": 273.390613652921,
+      "volume": 504131731.3102496,
+      "sentiment": -0.06033124660198885,
+      "volatility": 0.03253903907091537,
+      "momentum": -0.013626284435706307,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-27T10:08:04.201730",
+      "price": 264.16567406267154,
+      "volume": 630628132.3014729,
+      "sentiment": -0.30821820623602325,
+      "volatility": 0.04781146152369044,
+      "momentum": -0.01879229094826568,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-28T10:08:04.201730",
+      "price": 260.6546833916468,
+      "volume": 616892521.251699,
+      "sentiment": 0.06071619008562745,
+      "volatility": 0.0111866394209346,
+      "momentum": -0.012131285277653484,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-29T10:08:04.201730",
+      "price": 271.8862373908398,
+      "volume": 782182862.6441925,
+      "sentiment": 0.2226039529035838,
+      "volatility": 0.03150264794922022,
+      "momentum": -0.004865293472538114,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-30T10:08:04.201730",
+      "price": 273.50413573491454,
+      "volume": 115273433.74683814,
+      "sentiment": -0.05024280724243002,
+      "volatility": 0.010423564034447316,
+      "momentum": -0.016309421932900452,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-31T10:08:04.201730",
+      "price": 266.571871132671,
+      "volume": 932243177.916898,
+      "sentiment": 0.4218080503929489,
+      "volatility": 0.018507888165700183,
+      "momentum": -0.01020721054987862,
+      "events": []
+    },
+    {
+      "timestamp": "2026-02-01T10:08:04.201730",
+      "price": 270.88024052561184,
+      "volume": 581674079.8087022,
+      "sentiment": 0.28439054645876105,
+      "volatility": 0.048673559961613856,
+      "momentum": -0.008671676167666746,
+      "events": []
+    },
+    {
+      "timestamp": "2026-02-02T10:08:04.201730",
+      "price": 257.975087540916,
+      "volume": 655252748.008499,
+      "sentiment": 0.12747148069310288,
+      "volatility": 0.04584584580143279,
+      "momentum": -0.01644621323007059,
+      "events": []
+    },
+    {
+      "timestamp": "2026-02-03T10:08:04.201730",
+      "price": 252.02320978563424,
+      "volume": 589445600.0569776,
+      "sentiment": 0.0674957577879236,
+      "volatility": 0.013291030410858832,
+      "momentum": -0.019437457827801846,
+      "events": []
+    },
+    {
+      "timestamp": "2026-02-04T10:08:04.201730",
+      "price": 241.37523830873633,
+      "volume": 447348377.95813686,
+      "sentiment": -0.09466026186135135,
+      "volatility": 0.02984707372151152,
+      "momentum": -0.018555129608296767,
+      "events": []
+    },
+    {
+      "timestamp": "2026-02-05T10:08:04.201730",
+      "price": 244.5242594875249,
+      "volume": 886631513.0962732,
+      "sentiment": 0.4661836206217894,
+      "volatility": 0.045220906357054,
+      "momentum": -0.01668995291735973,
+      "events": []
+    },
+    {
+      "timestamp": "2026-02-06T10:08:04.201730",
+      "price": 238.63530882237055,
+      "volume": 436725452.9074751,
+      "sentiment": 0.43944420614315827,
+      "volatility": 0.010314825591415371,
+      "momentum": -0.007097620799780572,
+      "events": []
+    },
+    {
+      "timestamp": "2026-02-07T10:08:04.201730",
+      "price": 237.48624210902156,
+      "volume": 75515946.13047308,
+      "sentiment": -0.14173187269255227,
+      "volatility": 0.026113923923455726,
+      "momentum": -0.01310551583637184,
+      "events": []
+    },
+    {
+      "timestamp": "2026-02-08T10:08:04.201730",
+      "price": 240.48764686878758,
+      "volume": 47926202.61657944,
+      "sentiment": -0.31386916871156,
+      "volatility": 0.03013661507307054,
+      "momentum": -0.008637202441637874,
+      "events": []
+    },
+    {
+      "timestamp": "2026-02-09T10:08:04.201730",
+      "price": 254.83279350918883,
+      "volume": 326330867.9123037,
+      "sentiment": 0.21744380972492716,
+      "volatility": 0.039828532796480014,
+      "momentum": -0.008577675146625108,
+      "events": []
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "EVT-f6c563c1",
+      "event_type": "liquidity_event",
+      "timestamp": "2026-01-30T10:08:04.201730",
+      "description": "Generic event",
+      "impact_magnitude": -0.3495246066407196,
+      "probability": 0.552433273312446,
+      "affected_assets": [
+        "BNB"
+      ]
+    },
+    {
+      "event_id": "EVT-5eb59623",
+      "event_type": "liquidity_event",
+      "timestamp": "2026-01-27T10:08:04.201730",
+      "description": "Generic event",
+      "impact_magnitude": 0.11203493447637758,
+      "probability": 0.35616026741510415,
+      "affected_assets": [
+        "BNB"
+      ]
+    },
+    {
+      "event_id": "EVT-da9a675d",
+      "event_type": "geopolitical",
+      "timestamp": "2026-01-31T10:08:04.201730",
+      "description": "Generic event",
+      "impact_magnitude": 0.10529786057052415,
+      "probability": 0.5610268364529436,
+      "affected_assets": [
+        "BNB"
+      ]
+    },
+    {
+      "event_id": "EVT-bdeb2741",
+      "event_type": "regulatory",
+      "timestamp": "2026-01-26T10:08:04.201730",
+      "description": "Generic event",
+      "impact_magnitude": 0.42839972424339356,
+      "probability": 0.8241554151711179,
+      "affected_assets": [
+        "BNB"
+      ]
+    },
+    {
+      "event_id": "EVT-1ee043e4",
+      "event_type": "earnings",
+      "timestamp": "2026-02-06T10:08:04.201730",
+      "description": "Revenue guidance lowered",
+      "impact_magnitude": -0.05243794893846987,
+      "probability": 0.5323712044631066,
+      "affected_assets": [
+        "BNB"
+      ]
+    }
+  ],
+  "final_prediction": {
+    "price": 254.83279350918883,
+    "change_pct": -15.05573549693705,
+    "direction": "DOWN"
+  },
+  "created_at": "2026-01-11T10:08:04.201899",
+  "actual_outcome": null,
+  "accuracy_score": null,
+  "reflection": null
+}

@@ -31,7 +31,7 @@ from typing import Any, Dict, List, Optional
 # Add src to path
 sys.path.insert(0, str(Path(__file__).parent / 'src'))
 
-from core.prophet_core import AIProphetCore, ProphetConfig
+from core.prophet_core import AIProphet as AIProphetCore
 from core.recursive_learning import RecursiveLearningEngine
 from trading.paper_trading_engine import PaperTradingEngine, TradingMode, OrderSide, AITradingAgent
 from predictions.vertex_automl_engine import VertexAutoMLEngine, ForecastHorizon
@@ -143,7 +143,7 @@ class AIProphet:
         try:
             # Stage 1: Scrape latest data
             logger.info("\n[STAGE 1] Scraping latest market data...")
-            scrape_results = await self.scraper.run_daily_scrape()
+            scrape_results = await self.scraper.run_all_scrapers()
             results['stages']['scraping'] = {
                 'status': 'complete',
                 'data_points': scrape_results.get('total_data_points', 0)

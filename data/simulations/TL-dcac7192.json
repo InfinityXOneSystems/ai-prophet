@@ -1,0 +1,348 @@
+{
+  "timeline_id": "TL-dcac7192",
+  "timeline_type": "optimistic",
+  "target_asset": "SOL",
+  "start_date": "2026-01-11T10:08:04.194657",
+  "end_date": "2026-02-10T10:08:04.194657",
+  "probability": 0.2,
+  "description": "Optimistic scenario for SOL",
+  "theory_basis": "Fundamental Analysis, Technical Analysis",
+  "states": [
+    {
+      "timestamp": "2026-01-11T10:08:04.194657",
+      "price": 102.08152277198641,
+      "volume": 977603255.668596,
+      "sentiment": 0.4634024617825818,
+      "volatility": 0.014013939018480505,
+      "momentum": 0.018645925397302383,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-12T10:08:04.194657",
+      "price": 102.48991740070447,
+      "volume": 171044510.47155455,
+      "sentiment": -0.038779108091497316,
+      "volatility": 0.01869664111235417,
+      "momentum": 0.005796214613169393,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-13T10:08:04.194657",
+      "price": 106.24884603666997,
+      "volume": 218998681.1128359,
+      "sentiment": -0.3007475379363522,
+      "volatility": 0.03468149824733824,
+      "momentum": 0.006373092610032674,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-14T10:08:04.194657",
+      "price": 97.94605251432834,
+      "volume": 288647872.28437805,
+      "sentiment": 0.49189939182025333,
+      "volatility": 0.028928204836228523,
+      "momentum": 0.0026380839283625607,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-15T10:08:04.194657",
+      "price": 98.07388752260036,
+      "volume": 388643215.9145423,
+      "sentiment": 0.3592039660678211,
+      "volatility": 0.020116878463190505,
+      "momentum": 0.015407846958765958,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-16T10:08:04.194657",
+      "price": 98.86739720883435,
+      "volume": 695366116.5422814,
+      "sentiment": -0.3769011539507394,
+      "volatility": 0.03006631100978418,
+      "momentum": 0.013144527771687363,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-17T10:08:04.194657",
+      "price": 96.02371137890626,
+      "volume": 383416943.16022754,
+      "sentiment": 0.18269949475854297,
+      "volatility": 0.03194530127778126,
+      "momentum": 0.007550643635332605,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-18T10:08:04.194657",
+      "price": 97.83573496380717,
+      "volume": 649032547.7067113,
+      "sentiment": -0.4772921208441844,
+      "volatility": 0.012995398715682196,
+      "momentum": 0.00789536340517108,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-19T10:08:04.194657",
+      "price": 96.52582338305331,
+      "volume": 184072031.69154337,
+      "sentiment": 0.13969566686963664,
+      "volatility": 0.021495731880500447,
+      "momentum": 0.002884870755932106,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-20T10:08:04.194657",
+      "price": 101.72258622011697,
+      "volume": 200841438.1004232,
+      "sentiment": -0.44249442921871984,
+      "volatility": 0.04517914612687056,
+      "momentum": 0.005339305017194574,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-21T10:08:04.194657",
+      "price": 105.975959599579,
+      "volume": 188255443.5157422,
+      "sentiment": 0.15744983925027456,
+      "volatility": 0.049948553006449466,
+      "momentum": 0.002797919746832694,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-22T10:08:04.194657",
+      "price": 105.01759144195952,
+      "volume": 736345855.6789242,
+      "sentiment": 0.08514629416841668,
+      "volatility": 0.030350672454744453,
+      "momentum": 0.010989467057322403,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-23T10:08:04.194657",
+      "price": 104.52649031891022,
+      "volume": 974718367.2508368,
+      "sentiment": -0.05525166988357255,
+      "volatility": 0.02194302761195826,
+      "momentum": 0.00540372812542342,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-24T10:08:04.194657",
+      "price": 107.46227120787967,
+      "volume": 249556537.3914131,
+      "sentiment": 0.4296467618292229,
+      "volatility": 0.04381939358583668,
+      "momentum": 0.01750182982699865,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-25T10:08:04.194657",
+      "price": 110.34909121172882,
+      "volume": 664447558.9642252,
+      "sentiment": -0.32780668343796204,
+      "volatility": 0.045316515555557914,
+      "momentum": 0.0022378676445273847,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-26T10:08:04.194657",
+      "price": 114.14484566298347,
+      "volume": 303086608.02251893,
+      "sentiment": -0.1879212020702904,
+      "volatility": 0.02967792475713446,
+      "momentum": 0.0050412754874811574,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-27T10:08:04.194657",
+      "price": 113.34070085491122,
+      "volume": 475976746.7928579,
+      "sentiment": -0.2536457122121937,
+      "volatility": 0.01815169360598058,
+      "momentum": 0.006581472121294622,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-28T10:08:04.194657",
+      "price": 113.4092890186491,
+      "volume": 289059223.49325055,
+      "sentiment": 0.030702359359377485,
+      "volatility": 0.032984144515017785,
+      "momentum": 0.01849619632528614,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-29T10:08:04.194657",
+      "price": 118.55560361090392,
+      "volume": 857096014.5287603,
+      "sentiment": -0.04771018653445602,
+      "volatility": 0.032935101447573105,
+      "momentum": 0.018910507761700997,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-30T10:08:04.194657",
+      "price": 110.51118921514724,
+      "volume": 131150237.66199777,
+      "sentiment": 0.0764510799312923,
+      "volatility": 0.03868065487300073,
+      "momentum": 0.004199603250224046,
+      "events": []
+    },
+    {
+      "timestamp": "2026-01-31T10:08:04.194657",
+      "price": 113.83320210267547,
+      "volume": 639408363.9203522,
+      "sentiment": -0.2505001127892966,
+      "volatility": 0.029113890223050352,
+      "momentum": 0.006353585173891211,
+      "events": []
+    },
+    {
+      "timestamp": "2026-02-01T10:08:04.194657",
+      "price": 114.20588443702863,
+      "volume": 288661660.8449516,
+      "sentiment": 0.10666580390412184,
+      "volatility": 0.035789796706522374,
+      "momentum": 0.01013997606443015,
+      "events": []
+    },
+    {
+      "timestamp": "2026-02-02T10:08:04.194657",
+      "price": 117.75422473782433,
+      "volume": 517790716.3873528,
+      "sentiment": 0.39299953985643243,
+      "volatility": 0.022472954727117814,
+      "momentum": 0.017654531564373365,
+      "events": []
+    },
+    {
+      "timestamp": "2026-02-03T10:08:04.194657",
+      "price": 122.44672625826276,
+      "volume": 126245349.13402738,
+      "sentiment": 0.08359766579285355,
+      "volatility": 0.03826392578449928,
+      "momentum": 0.017457398481827403,
+      "events": []
+    },
+    {
+      "timestamp": "2026-02-04T10:08:04.194657",
+      "price": 116.60648898754984,
+      "volume": 565141077.8026263,
+      "sentiment": -0.30276379277040666,
+      "volatility": 0.04491404152398906,
+      "momentum": 0.0015807403016757423,
+      "events": []
+    },
+    {
+      "timestamp": "2026-02-05T10:08:04.194657",
+      "price": 117.55986099989512,
+      "volume": 590590641.7427759,
+      "sentiment": 0.31709825363933064,
+      "volatility": 0.02326666758318302,
+      "momentum": 0.018417522326807226,
+      "events": []
+    },
+    {
+      "timestamp": "2026-02-06T10:08:04.194657",
+      "price": 118.35381674390372,
+      "volume": 363446270.4144205,
+      "sentiment": -0.3859284328870092,
+      "volatility": 0.027021795854217177,
+      "momentum": 0.015483892989244411,
+      "events": []
+    },
+    {
+      "timestamp": "2026-02-07T10:08:04.194657",
+      "price": 116.4690384877394,
+      "volume": 756231961.0909308,
+      "sentiment": 0.28907910854702923,
+      "volatility": 0.039539747110484455,
+      "momentum": 0.011655776328581335,
+      "events": []
+    },
+    {
+      "timestamp": "2026-02-08T10:08:04.194657",
+      "price": 117.54584138062442,
+      "volume": 165269702.78951293,
+      "sentiment": 0.3162593175535626,
+      "volatility": 0.029939665255036316,
+      "momentum": 0.018239263063285136,
+      "events": []
+    },
+    {
+      "timestamp": "2026-02-09T10:08:04.194657",
+      "price": 118.21539311486261,
+      "volume": 453128580.7827927,
+      "sentiment": 0.3724650255782742,
+      "volatility": 0.026675137780970457,
+      "momentum": 0.011778668164995593,
+      "events": []
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "EVT-a1826512",
+      "event_type": "sentiment_shift",
+      "timestamp": "2026-02-05T10:08:04.194657",
+      "description": "Generic event",
+      "impact_magnitude": 0.45946788304864894,
+      "probability": 0.7620263019529034,
+      "affected_assets": [
+        "SOL"
+      ]
+    },
+    {
+      "event_id": "EVT-2620f23c",
+      "event_type": "sentiment_shift",
+      "timestamp": "2026-01-26T10:08:04.194657",
+      "description": "Generic event",
+      "impact_magnitude": -0.02068821877025917,
+      "probability": 0.6126549621108283,
+      "affected_assets": [
+        "SOL"
+      ]
+    },
+    {
+      "event_id": "EVT-e6d16acc",
+      "event_type": "short_squeeze",
+      "timestamp": "2026-01-26T10:08:04.194657",
+      "description": "Cost to borrow spikes to 26%",
+      "impact_magnitude": -0.09845923326612471,
+      "probability": 0.47599619577282704,
+      "affected_assets": [
+        "SOL"
+      ]
+    },
+    {
+      "event_id": "EVT-640f414d",
+      "event_type": "fed_decision",
+      "timestamp": "2026-01-15T10:08:04.194657",
+      "description": "Fed signals dovish stance",
+      "impact_magnitude": -0.30593143899165987,
+      "probability": 0.8054247965150296,
+      "affected_assets": [
+        "SOL"
+      ]
+    },
+    {
+      "event_id": "EVT-8ab2b32b",
+      "event_type": "liquidity_event",
+      "timestamp": "2026-02-04T10:08:04.194657",
+      "description": "Generic event",
+      "impact_magnitude": -0.06527655905445096,
+      "probability": 0.6467272527442964,
+      "affected_assets": [
+        "SOL"
+      ]
+    }
+  ],
+  "final_prediction": {
+    "price": 118.21539311486261,
+    "change_pct": 18.2153931148626,
+    "direction": "UP"
+  },
+  "created_at": "2026-01-11T10:08:04.194862",
+  "actual_outcome": null,
+  "accuracy_score": null,
+  "reflection": null
+}

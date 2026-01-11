@@ -1,0 +1,514 @@
+[
+  {
+    "source_type": "market_data",
+    "source_url": "market://SPY",
+    "timestamp": "2026-01-11T10:08:04.174968",
+    "data": {
+      "symbol": "SPY",
+      "price": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "volume": 0,
+      "change_pct": 0.0,
+      "technical_indicators": {}
+    },
+    "confidence": 0.95
+  },
+  {
+    "source_type": "market_data",
+    "source_url": "market://QQQ",
+    "timestamp": "2026-01-11T10:08:04.174973",
+    "data": {
+      "symbol": "QQQ",
+      "price": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "volume": 0,
+      "change_pct": 0.0,
+      "technical_indicators": {}
+    },
+    "confidence": 0.95
+  },
+  {
+    "source_type": "market_data",
+    "source_url": "market://DIA",
+    "timestamp": "2026-01-11T10:08:04.174976",
+    "data": {
+      "symbol": "DIA",
+      "price": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "volume": 0,
+      "change_pct": 0.0,
+      "technical_indicators": {}
+    },
+    "confidence": 0.95
+  },
+  {
+    "source_type": "market_data",
+    "source_url": "market://IWM",
+    "timestamp": "2026-01-11T10:08:04.174979",
+    "data": {
+      "symbol": "IWM",
+      "price": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "volume": 0,
+      "change_pct": 0.0,
+      "technical_indicators": {}
+    },
+    "confidence": 0.95
+  },
+  {
+    "source_type": "market_data",
+    "source_url": "market://VIX",
+    "timestamp": "2026-01-11T10:08:04.174982",
+    "data": {
+      "symbol": "VIX",
+      "price": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "volume": 0,
+      "change_pct": 0.0,
+      "technical_indicators": {}
+    },
+    "confidence": 0.95
+  },
+  {
+    "source_type": "market_data",
+    "source_url": "market://AAPL",
+    "timestamp": "2026-01-11T10:08:04.174985",
+    "data": {
+      "symbol": "AAPL",
+      "price": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "volume": 0,
+      "change_pct": 0.0,
+      "technical_indicators": {}
+    },
+    "confidence": 0.95
+  },
+  {
+    "source_type": "market_data",
+    "source_url": "market://MSFT",
+    "timestamp": "2026-01-11T10:08:04.174988",
+    "data": {
+      "symbol": "MSFT",
+      "price": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "volume": 0,
+      "change_pct": 0.0,
+      "technical_indicators": {}
+    },
+    "confidence": 0.95
+  },
+  {
+    "source_type": "market_data",
+    "source_url": "market://GOOGL",
+    "timestamp": "2026-01-11T10:08:04.174997",
+    "data": {
+      "symbol": "GOOGL",
+      "price": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "volume": 0,
+      "change_pct": 0.0,
+      "technical_indicators": {}
+    },
+    "confidence": 0.95
+  },
+  {
+    "source_type": "market_data",
+    "source_url": "market://AMZN",
+    "timestamp": "2026-01-11T10:08:04.175001",
+    "data": {
+      "symbol": "AMZN",
+      "price": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "volume": 0,
+      "change_pct": 0.0,
+      "technical_indicators": {}
+    },
+    "confidence": 0.95
+  },
+  {
+    "source_type": "market_data",
+    "source_url": "market://NVDA",
+    "timestamp": "2026-01-11T10:08:04.175003",
+    "data": {
+      "symbol": "NVDA",
+      "price": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "volume": 0,
+      "change_pct": 0.0,
+      "technical_indicators": {}
+    },
+    "confidence": 0.95
+  },
+  {
+    "source_type": "market_data",
+    "source_url": "market://META",
+    "timestamp": "2026-01-11T10:08:04.175006",
+    "data": {
+      "symbol": "META",
+      "price": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "volume": 0,
+      "change_pct": 0.0,
+      "technical_indicators": {}
+    },
+    "confidence": 0.95
+  },
+  {
+    "source_type": "market_data",
+    "source_url": "market://TSLA",
+    "timestamp": "2026-01-11T10:08:04.175008",
+    "data": {
+      "symbol": "TSLA",
+      "price": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "volume": 0,
+      "change_pct": 0.0,
+      "technical_indicators": {}
+    },
+    "confidence": 0.95
+  },
+  {
+    "source_type": "market_data",
+    "source_url": "market://BRK.B",
+    "timestamp": "2026-01-11T10:08:04.175011",
+    "data": {
+      "symbol": "BRK.B",
+      "price": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "volume": 0,
+      "change_pct": 0.0,
+      "technical_indicators": {}
+    },
+    "confidence": 0.95
+  },
+  {
+    "source_type": "market_data",
+    "source_url": "market://UNH",
+    "timestamp": "2026-01-11T10:08:04.175013",
+    "data": {
+      "symbol": "UNH",
+      "price": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "volume": 0,
+      "change_pct": 0.0,
+      "technical_indicators": {}
+    },
+    "confidence": 0.95
+  },
+  {
+    "source_type": "market_data",
+    "source_url": "market://JNJ",
+    "timestamp": "2026-01-11T10:08:04.175016",
+    "data": {
+      "symbol": "JNJ",
+      "price": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "volume": 0,
+      "change_pct": 0.0,
+      "technical_indicators": {}
+    },
+    "confidence": 0.95
+  },
+  {
+    "source_type": "market_data",
+    "source_url": "market://V",
+    "timestamp": "2026-01-11T10:08:04.175018",
+    "data": {
+      "symbol": "V",
+      "price": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "volume": 0,
+      "change_pct": 0.0,
+      "technical_indicators": {}
+    },
+    "confidence": 0.95
+  },
+  {
+    "source_type": "market_data",
+    "source_url": "market://XOM",
+    "timestamp": "2026-01-11T10:08:04.175025",
+    "data": {
+      "symbol": "XOM",
+      "price": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "volume": 0,
+      "change_pct": 0.0,
+      "technical_indicators": {}
+    },
+    "confidence": 0.95
+  },
+  {
+    "source_type": "market_data",
+    "source_url": "market://JPM",
+    "timestamp": "2026-01-11T10:08:04.175028",
+    "data": {
+      "symbol": "JPM",
+      "price": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "volume": 0,
+      "change_pct": 0.0,
+      "technical_indicators": {}
+    },
+    "confidence": 0.95
+  },
+  {
+    "source_type": "market_data",
+    "source_url": "market://PG",
+    "timestamp": "2026-01-11T10:08:04.175030",
+    "data": {
+      "symbol": "PG",
+      "price": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "volume": 0,
+      "change_pct": 0.0,
+      "technical_indicators": {}
+    },
+    "confidence": 0.95
+  },
+  {
+    "source_type": "market_data",
+    "source_url": "market://MA",
+    "timestamp": "2026-01-11T10:08:04.175032",
+    "data": {
+      "symbol": "MA",
+      "price": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "volume": 0,
+      "change_pct": 0.0,
+      "technical_indicators": {}
+    },
+    "confidence": 0.95
+  },
+  {
+    "source_type": "market_data",
+    "source_url": "market://HD",
+    "timestamp": "2026-01-11T10:08:04.175034",
+    "data": {
+      "symbol": "HD",
+      "price": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "volume": 0,
+      "change_pct": 0.0,
+      "technical_indicators": {}
+    },
+    "confidence": 0.95
+  },
+  {
+    "source_type": "market_data",
+    "source_url": "market://CVX",
+    "timestamp": "2026-01-11T10:08:04.175036",
+    "data": {
+      "symbol": "CVX",
+      "price": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "volume": 0,
+      "change_pct": 0.0,
+      "technical_indicators": {}
+    },
+    "confidence": 0.95
+  },
+  {
+    "source_type": "market_data",
+    "source_url": "market://MRK",
+    "timestamp": "2026-01-11T10:08:04.175038",
+    "data": {
+      "symbol": "MRK",
+      "price": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "volume": 0,
+      "change_pct": 0.0,
+      "technical_indicators": {}
+    },
+    "confidence": 0.95
+  },
+  {
+    "source_type": "market_data",
+    "source_url": "market://ABBV",
+    "timestamp": "2026-01-11T10:08:04.175040",
+    "data": {
+      "symbol": "ABBV",
+      "price": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "volume": 0,
+      "change_pct": 0.0,
+      "technical_indicators": {}
+    },
+    "confidence": 0.95
+  },
+  {
+    "source_type": "market_data",
+    "source_url": "market://LLY",
+    "timestamp": "2026-01-11T10:08:04.175042",
+    "data": {
+      "symbol": "LLY",
+      "price": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "volume": 0,
+      "change_pct": 0.0,
+      "technical_indicators": {}
+    },
+    "confidence": 0.95
+  },
+  {
+    "source_type": "market_data",
+    "source_url": "market://PFE",
+    "timestamp": "2026-01-11T10:08:04.175044",
+    "data": {
+      "symbol": "PFE",
+      "price": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "volume": 0,
+      "change_pct": 0.0,
+      "technical_indicators": {}
+    },
+    "confidence": 0.95
+  },
+  {
+    "source_type": "market_data",
+    "source_url": "market://KO",
+    "timestamp": "2026-01-11T10:08:04.175046",
+    "data": {
+      "symbol": "KO",
+      "price": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "volume": 0,
+      "change_pct": 0.0,
+      "technical_indicators": {}
+    },
+    "confidence": 0.95
+  },
+  {
+    "source_type": "market_data",
+    "source_url": "market://PEP",
+    "timestamp": "2026-01-11T10:08:04.175051",
+    "data": {
+      "symbol": "PEP",
+      "price": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "volume": 0,
+      "change_pct": 0.0,
+      "technical_indicators": {}
+    },
+    "confidence": 0.95
+  },
+  {
+    "source_type": "market_data",
+    "source_url": "market://COST",
+    "timestamp": "2026-01-11T10:08:04.175054",
+    "data": {
+      "symbol": "COST",
+      "price": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "volume": 0,
+      "change_pct": 0.0,
+      "technical_indicators": {}
+    },
+    "confidence": 0.95
+  },
+  {
+    "source_type": "market_data",
+    "source_url": "market://TMO",
+    "timestamp": "2026-01-11T10:08:04.175197",
+    "data": {
+      "symbol": "TMO",
+      "price": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "volume": 0,
+      "change_pct": 0.0,
+      "technical_indicators": {}
+    },
+    "confidence": 0.95
+  },
+  {
+    "source_type": "market_data",
+    "source_url": "market://AVGO",
+    "timestamp": "2026-01-11T10:08:04.175200",
+    "data": {
+      "symbol": "AVGO",
+      "price": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "volume": 0,
+      "change_pct": 0.0,
+      "technical_indicators": {}
+    },
+    "confidence": 0.95
+  },
+  {
+    "source_type": "market_data",
+    "source_url": "market://MCD",
+    "timestamp": "2026-01-11T10:08:04.175203",
+    "data": {
+      "symbol": "MCD",
+      "price": 0.0,
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "volume": 0,
+      "change_pct": 0.0,
+      "technical_indicators": {}
+    },
+    "confidence": 0.95
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "source_type": "short_interest",
+    "source_url": "short://interest",
+    "timestamp": "2026-01-11T10:08:04.175335",
+    "data": {
+      "high_short_interest": [],
+      "days_to_cover": {},
+      "cost_to_borrow": {},
+      "squeeze_candidates": []
+    },
+    "confidence": 0.85
+  }
+]

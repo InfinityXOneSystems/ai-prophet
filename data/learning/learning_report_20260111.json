@@ -1,0 +1,24 @@
+{
+  "report_date": "2026-01-11T10:08:04.215475",
+  "period_days": 30,
+  "overall_statistics": {
+    "total_predictions": 0,
+    "correct_predictions": 0,
+    "overall_accuracy": 0,
+    "total_pnl": 0
+  },
+  "signal_distribution": {
+    "strong_positive": 0,
+    "positive": 0,
+    "neutral": 0,
+    "negative": 0,
+    "strong_negative": 0
+  },
+  "model_performances": [],
+  "symbol_insights": [],
+  "current_adjustments": {
+    "model_adjustments": {},
+    "symbol_adjustments": {}
+  },
+  "recommendations": []
+}

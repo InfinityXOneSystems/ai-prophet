@@ -1,0 +1,67 @@
+[
+  {
+    "source_type": "social_sentiment",
+    "source_url": "social://twitter",
+    "timestamp": "2026-01-11T10:08:04.175396",
+    "data": {
+      "platform": "twitter",
+      "trending_tickers": [],
+      "sentiment_scores": {},
+      "volume_change": {},
+      "influencer_mentions": []
+    },
+    "confidence": 0.75
+  },
+  {
+    "source_type": "social_sentiment",
+    "source_url": "social://reddit",
+    "timestamp": "2026-01-11T10:08:04.175400",
+    "data": {
+      "platform": "reddit",
+      "trending_tickers": [],
+      "sentiment_scores": {},
+      "volume_change": {},
+      "influencer_mentions": []
+    },
+    "confidence": 0.75
+  },
+  {
+    "source_type": "social_sentiment",
+    "source_url": "social://stocktwits",
+    "timestamp": "2026-01-11T10:08:04.175402",
+    "data": {
+      "platform": "stocktwits",
+      "trending_tickers": [],
+      "sentiment_scores": {},
+      "volume_change": {},
+      "influencer_mentions": []
+    },
+    "confidence": 0.75
+  },
+  {
+    "source_type": "social_sentiment",
+    "source_url": "social://discord",
+    "timestamp": "2026-01-11T10:08:04.175405",
+    "data": {
+      "platform": "discord",
+      "trending_tickers": [],
+      "sentiment_scores": {},
+      "volume_change": {},
+      "influencer_mentions": []
+    },
+    "confidence": 0.75
+  },
+  {
+    "source_type": "social_sentiment",
+    "source_url": "social://telegram",
+    "timestamp": "2026-01-11T10:08:04.175407",
+    "data": {
+      "platform": "telegram",
+      "trending_tickers": [],
+      "sentiment_scores": {},
+      "volume_change": {},
+      "influencer_mentions": []
+    },
+    "confidence": 0.75
+  }
+]
