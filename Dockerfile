@@ -45,5 +45,8 @@ RUN chmod +x /app/autonomous_scheduler.py
 HEALTHCHECK --interval=5m --timeout=30s --start-period=1m --retries=3 \
     CMD python3 -c "import os; exit(0 if os.path.exists('/app/logs/autonomous_scheduler.log') else 1)"
 
-# Run in daemon mode by default
-CMD ["python3", "/app/autonomous_scheduler.py", "--mode", "daemon"]
+# Expose port for Cloud Run
+EXPOSE 8080
+
+# Run Cloud Run server (which starts autonomous scheduler in background)
+CMD ["python3", "/app/cloud_run_server.py"]
