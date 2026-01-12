@@ -1,0 +1,248 @@
+{
+  "cycle": 1,
+  "start_time": "2026-01-11T20:02:18.066052",
+  "stages": {
+    "data_update": {
+      "status": "complete"
+    },
+    "session_analysis": {
+      "current_time": "2026-01-11T20:02:18.066264",
+      "stock_session": {
+        "active": false,
+        "session": null,
+        "volatility": null,
+        "volume": null,
+        "risk_multiplier": 0,
+        "strategies": []
+      },
+      "crypto_session": {
+        "active": true,
+        "session": "crypto_asian",
+        "volatility": "medium",
+        "volume": "medium",
+        "risk_multiplier": 0.7,
+        "strategies": [
+          "range_trading",
+          "accumulation"
+        ]
+      }
+    },
+    "stop_check": {
+      "open_positions": 0
+    },
+    "predictions": {
+      "count": 8,
+      "predictions": [
+        {
+          "symbol": "BTC",
+          "asset_class": "crypto",
+          "current_price": 44876.83340588688,
+          "direction": "LONG",
+          "confidence": 0.7523058134597098,
+          "target_price": 45540.14699060054,
+          "stop_loss": 44335.73147278437,
+          "timestamp": "2026-01-11T20:02:18.066385"
+        },
+        {
+          "symbol": "ETH",
+          "asset_class": "crypto",
+          "current_price": 2506.9607981788768,
+          "direction": "LONG",
+          "confidence": 0.8666307547037576,
+          "target_price": 2549.515516007035,
+          "stop_loss": 2492.0660410567734,
+          "timestamp": "2026-01-11T20:02:18.066393"
+        },
+        {
+          "symbol": "SOL",
+          "asset_class": "crypto",
+          "current_price": 98.98728105293958,
+          "direction": "NEUTRAL",
+          "confidence": 0.508858659424687,
+          "target_price": 98.98728105293958,
+          "stop_loss": 98.98728105293958,
+          "timestamp": "2026-01-11T20:02:18.066398"
+        },
+        {
+          "symbol": "XRP",
+          "asset_class": "crypto",
+          "current_price": 0.5906281870337287,
+          "direction": "SHORT",
+          "confidence": 0.8822083375263099,
+          "target_price": 0.5775607025407219,
+          "stop_loss": 0.5947022499788134,
+          "timestamp": "2026-01-11T20:02:18.066402"
+        },
+        {
+          "symbol": "DOGE",
+          "asset_class": "crypto",
+          "current_price": 0.08011553924118127,
+          "direction": "SHORT",
+          "confidence": 0.685230845998363,
+          "target_price": 0.07914570484101469,
+          "stop_loss": 0.08115471283666677,
+          "timestamp": "2026-01-11T20:02:18.066407"
+        },
+        {
+          "symbol": "ADA",
+          "asset_class": "crypto",
+          "current_price": 0.5033591404383336,
+          "direction": "SHORT",
+          "confidence": 0.6478865976480306,
+          "target_price": 0.49562884993969725,
+          "stop_loss": 0.5089672641372317,
+          "timestamp": "2026-01-11T20:02:18.066411"
+        },
+        {
+          "symbol": "AVAX",
+          "asset_class": "crypto",
+          "current_price": 35.222450090243285,
+          "direction": "LONG",
+          "confidence": 0.85388500833664,
+          "target_price": 35.861487954788025,
+          "stop_loss": 34.89524415435866,
+          "timestamp": "2026-01-11T20:02:18.066416"
+        },
+        {
+          "symbol": "LINK",
+          "asset_class": "crypto",
+          "current_price": 14.863685074626774,
+          "direction": "NEUTRAL",
+          "confidence": 0.8897265273942461,
+          "target_price": 14.863685074626774,
+          "stop_loss": 14.863685074626774,
+          "timestamp": "2026-01-11T20:02:18.066426"
+        }
+      ]
+    },
+    "trades": {
+      "executed": 4,
+      "trades": [
+        {
+          "trade_id": "DT-1a9ba526",
+          "symbol": "BTC",
+          "asset_class": "crypto",
+          "entry_time": "2026-01-11T20:02:18.066508",
+          "entry_price": 44876.83340588688,
+          "quantity": 0.11141606081645028,
+          "side": "LONG",
+          "strategy": "ai_prophet_prediction",
+          "session": "crypto_asian",
+          "exit_time": null,
+          "exit_price": null,
+          "exit_reason": null,
+          "pnl": null,
+          "pnl_pct": null,
+          "stop_loss": 44428.06507182801,
+          "take_profit": 45774.37007400462,
+          "risk_reward_ratio": 2.0
+        },
+        {
+          "trade_id": "DT-b059f553",
+          "symbol": "ETH",
+          "asset_class": "crypto",
+          "entry_time": "2026-01-11T20:02:18.066580",
+          "entry_price": 2506.9607981788768,
+          "quantity": 1.9944468232738755,
+          "side": "LONG",
+          "strategy": "ai_prophet_prediction",
+          "session": "crypto_asian",
+          "exit_time": null,
+          "exit_price": null,
+          "exit_reason": null,
+          "pnl": null,
+          "pnl_pct": null,
+          "stop_loss": 2481.891190197088,
+          "take_profit": 2557.1000141424543,
+          "risk_reward_ratio": 2.0
+        },
+        {
+          "trade_id": "DT-e8b39827",
+          "symbol": "XRP",
+          "asset_class": "crypto",
+          "entry_time": "2026-01-11T20:02:18.066632",
+          "entry_price": 0.5906281870337287,
+          "quantity": 8465.562785127402,
+          "side": "SHORT",
+          "strategy": "ai_prophet_prediction",
+          "session": "crypto_asian",
+          "exit_time": null,
+          "exit_price": null,
+          "exit_reason": null,
+          "pnl": null,
+          "pnl_pct": null,
+          "stop_loss": 0.5965344689040659,
+          "take_profit": 0.578815623293054,
+          "risk_reward_ratio": 2.0
+        },
+        {
+          "trade_id": "DT-94f5243e",
+          "symbol": "AVAX",
+          "asset_class": "crypto",
+          "entry_time": "2026-01-11T20:02:18.066698",
+          "entry_price": 35.222450090243285,
+          "quantity": 141.9549175934531,
+          "side": "LONG",
+          "strategy": "ai_prophet_prediction",
+          "session": "crypto_asian",
+          "exit_time": null,
+          "exit_price": null,
+          "exit_reason": null,
+          "pnl": null,
+          "pnl_pct": null,
+          "stop_loss": 34.870225589340855,
+          "take_profit": 35.92689909204815,
+          "risk_reward_ratio": 2.0
+        }
+      ]
+    },
+    "reflection": {
+      "status": "no_trades_to_analyze"
+    },
+    "learning": {
+      "win_rate": 0,
+      "profit_factor": Infinity,
+      "adjustments": [
+        "Increase confidence threshold"
+      ]
+    }
+  },
+  "summary": {
+    "date": "2026-01-11",
+    "portfolio_value": 100000.0,
+    "daily_pnl": 0.0,
+    "daily_pnl_pct": 0.0,
+    "total_trades": 0,
+    "winning_trades": 0,
+    "losing_trades": 0,
+    "win_rate": 0,
+    "profit_factor": Infinity,
+    "largest_win": 0,
+    "largest_loss": 0,
+    "open_positions": 4,
+    "current_session": {
+      "current_time": "2026-01-11T20:02:18.066854",
+      "stock_session": {
+        "active": false,
+        "session": null,
+        "volatility": null,
+        "volume": null,
+        "risk_multiplier": 0,
+        "strategies": []
+      },
+      "crypto_session": {
+        "active": true,
+        "session": "crypto_asian",
+        "volatility": "medium",
+        "volume": "medium",
+        "risk_multiplier": 0.7,
+        "strategies": [
+          "range_trading",
+          "accumulation"
+        ]
+      }
+    }
+  },
+  "end_time": "2026-01-11T20:02:18.067073",
+  "duration_seconds": 0.001023
+}
