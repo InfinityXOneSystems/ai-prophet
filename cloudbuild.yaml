@@ -1,0 +1,64 @@
+# AI PROPHET - CLOUD BUILD CONFIGURATION
+# ========================================
+# Builds and deploys AI Prophet to Cloud Run
+
+steps:
+  # Build the container image
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - 'build'
+      - '-t'
+      - 'gcr.io/$PROJECT_ID/ai-prophet-autonomous:$COMMIT_SHA'
+      - '-t'
+      - 'gcr.io/$PROJECT_ID/ai-prophet-autonomous:latest'
+      - '.'
+  
+  # Push the container image to Container Registry
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - 'push'
+      - 'gcr.io/$PROJECT_ID/ai-prophet-autonomous:$COMMIT_SHA'
+  
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - 'push'
+      - 'gcr.io/$PROJECT_ID/ai-prophet-autonomous:latest'
+  
+  # Deploy to Cloud Run
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: gcloud
+    args:
+      - 'run'
+      - 'deploy'
+      - 'ai-prophet-autonomous'
+      - '--image'
+      - 'gcr.io/$PROJECT_ID/ai-prophet-autonomous:$COMMIT_SHA'
+      - '--region'
+      - 'us-central1'
+      - '--platform'
+      - 'managed'
+      - '--memory'
+      - '2Gi'
+      - '--cpu'
+      - '2'
+      - '--timeout'
+      - '3600'
+      - '--max-instances'
+      - '1'
+      - '--min-instances'
+      - '1'
+      - '--no-allow-unauthenticated'
+      - '--set-env-vars'
+      - 'TZ=America/New_York'
+      - '--set-secrets'
+      - 'GEMINI_API_KEY=GEMINI_API_KEY:latest,GCP_SA_KEY=GCP_SA_KEY:latest'
+
+images:
+  - 'gcr.io/$PROJECT_ID/ai-prophet-autonomous:$COMMIT_SHA'
+  - 'gcr.io/$PROJECT_ID/ai-prophet-autonomous:latest'
+
+options:
+  logging: CLOUD_LOGGING_ONLY
+  machineType: 'E2_HIGHCPU_8'
+
+timeout: '1200s'
