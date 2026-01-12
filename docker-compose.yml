@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  ai-prophet:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ai-prophet-autonomous
+    restart: unless-stopped
+    environment:
+      - TZ=America/New_York
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - GCP_SA_KEY=${GCP_SA_KEY}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./config:/app/config
+    networks:
+      - ai-prophet-network
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+networks:
+  ai-prophet-network:
+    driver: bridge
