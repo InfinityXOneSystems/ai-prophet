@@ -1,0 +1,18 @@
+[
+  {
+    "timestamp": "2026-01-12T04:03:07.245290",
+    "metrics": {
+      "accuracy": null,
+      "precision": null,
+      "recall": null,
+      "f1_score": null,
+      "latency_ms": 250.0,
+      "error_rate": 0.0,
+      "custom_metrics": {
+        "total_predictions": null,
+        "avg_confidence": null,
+        "open_positions": 0
+      }
+    }
+  }
+]
