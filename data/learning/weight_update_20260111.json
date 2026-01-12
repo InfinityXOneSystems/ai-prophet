@@ -1,0 +1,17 @@
+{
+  "model_weights": {
+    "lstm": 0.3,
+    "transformer": 0.25,
+    "automl": 0.25,
+    "ensemble": 0.2
+  },
+  "last_updated": "2026-01-11T23:07:06.364671",
+  "previous_weights": {
+    "lstm": 0.3,
+    "transformer": 0.25,
+    "automl": 0.25,
+    "ensemble": 0.2
+  },
+  "adjustments_made": [],
+  "update_reason": "Daily self-reflection optimization"
+}

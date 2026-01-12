@@ -1,0 +1,126 @@
+{
+  "date": "2026-01-11T23:06:21.663085",
+  "overall_metrics": {
+    "total_predictions_today": 128,
+    "average_prediction_confidence": 0.7143095588805181,
+    "open_positions": 2,
+    "closed_trades_today": 0,
+    "win_rate": 0,
+    "total_pnl_today": 0,
+    "system_status": "LEARNING"
+  },
+  "prediction_analysis": {
+    "total_predictions": 128,
+    "direction_distribution": {
+      "NEUTRAL": 45,
+      "SHORT": 41,
+      "LONG": 42
+    },
+    "average_confidence": 0.7143095588805181,
+    "median_confidence": 0.7058263058622853,
+    "confidence_std": 0.1285619194345077,
+    "min_confidence": 0.5028186231507499,
+    "max_confidence": 0.9354499767470781,
+    "symbols_predicted": {
+      "BTC": 9,
+      "ETH": 9,
+      "SOL": 9,
+      "XRP": 9,
+      "DOGE": 9,
+      "ADA": 9,
+      "AVAX": 9,
+      "LINK": 9,
+      "SPY": 7,
+      "QQQ": 7,
+      "TSLA": 7,
+      "NVDA": 7,
+      "AMD": 7,
+      "AAPL": 7,
+      "AMZN": 7,
+      "META": 7
+    },
+    "asset_class_distribution": {
+      "crypto": 72,
+      "stocks": 56
+    }
+  },
+  "trade_analysis": {
+    "open_positions": {
+      "count": 2,
+      "total_exposure": 10000.0
+    },
+    "open_by_asset_class": {
+      "crypto": 2
+    },
+    "open_by_side": {
+      "SHORT": 2
+    },
+    "open_by_strategy": {
+      "ai_prophet_prediction": 2
+    },
+    "closed_trades": {
+      "count": 0,
+      "winning_trades": 0,
+      "losing_trades": 0,
+      "total_pnl": 0,
+      "win_rate": 0
+    },
+    "closed_by_asset_class": {},
+    "closed_by_strategy": {}
+  },
+  "model_performance": {},
+  "asset_class_performance": {},
+  "strategy_insights": {
+    "sessions_active": {
+      "opening_bell": 3,
+      "crypto_european": 3,
+      "lunch_lull": 1,
+      "crypto_us": 3,
+      "afternoon": 1,
+      "after_hours": 2,
+      "crypto_asian": 2
+    },
+    "strategies_by_session": {
+      "opening_bell": [
+        "momentum",
+        "gap_fade",
+        "breakout"
+      ],
+      "crypto_european": [
+        "trend_following",
+        "breakout"
+      ],
+      "lunch_lull": [
+        "scalping",
+        "range_trading"
+      ],
+      "crypto_us": [
+        "whale_watching",
+        "momentum",
+        "news_trading"
+      ],
+      "afternoon": [
+        "trend_continuation"
+      ],
+      "after_hours": [
+        "earnings_plays",
+        "news_trading"
+      ],
+      "crypto_asian": [
+        "accumulation",
+        "range_trading"
+      ]
+    }
+  },
+  "model_weight_adjustments": {
+    "confidence_multiplier": 1.0,
+    "model_weights": {
+      "lstm": 0.3,
+      "transformer": 0.25,
+      "automl": 0.25,
+      "ensemble": 0.2
+    },
+    "adjustment_reason": "Baseline weights - awaiting trade completion for performance-based adjustments"
+  },
+  "recommendations": []
+}
