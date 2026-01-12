@@ -79,3 +79,4 @@ isort>=5.12.0
 flake8>=6.1.0
 mypy>=1.5.0
 flask>=3.0.0
+gunicorn>=21.0.0

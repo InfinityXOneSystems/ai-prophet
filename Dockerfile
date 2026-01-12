@@ -11,6 +11,7 @@ FROM python:3.11-slim
 ENV PYTHONUNBUFFERED=1
 ENV DEBIAN_FRONTEND=noninteractive
 ENV TZ=America/New_York
+ENV PORT=8080
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
@@ -48,5 +49,5 @@ HEALTHCHECK --interval=5m --timeout=30s --start-period=1m --retries=3 \
 # Expose port for Cloud Run
 EXPOSE 8080
 
-# Run Cloud Run server (which starts autonomous scheduler in background)
-CMD ["python3", "/app/cloud_run_server.py"]
+# Run Cloud Run server with gunicorn for production
+CMD exec gunicorn --bind :$PORT --workers 1 --threads 8 --timeout 3600 cloud_run_server:app
