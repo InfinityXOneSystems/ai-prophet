@@ -1,0 +1,2801 @@
+{
+  "timestamp": "2026-01-12T04:03:06.591508",
+  "agent_name": "AI Prophet",
+  "modules_executed": [
+    "inventory",
+    "taxonomy",
+    "documentation",
+    "evolution",
+    "reporting"
+  ],
+  "inventory": {
+    "timestamp": "2026-01-12T04:03:07.059831",
+    "inventory": {
+      "timestamp": "2026-01-12T04:03:06.900100",
+      "root_directory": "/home/ubuntu/ai-prophet",
+      "statistics": {
+        "total_assets": 95,
+        "total_size_bytes": 1402282,
+        "by_type": {
+          "documentation": 8,
+          "code": 37,
+          "other": 1,
+          "config": 49
+        },
+        "by_directory": {
+          ".": 15,
+          "data/day_trading": 1,
+          "data/day_trading_cycles": 9,
+          "data/learning": 5,
+          "data/pipeline_results": 2,
+          "data/portfolios": 1,
+          "data/scraped": 6,
+          "data/simulations": 25,
+          "src": 1,
+          "src/api": 2,
+          "src/core": 3,
+          "src/integrations": 1,
+          "src/mcp": 1,
+          "src/predictions": 2,
+          "src/scrapers": 2,
+          "src/simulations": 2,
+          "src/trading": 4,
+          "src/validation": 1,
+          "config": 1,
+          "reflection/core": 4,
+          "reflection/modules/inventory": 3,
+          "reflection/modules/taxonomy": 1,
+          "reflection/modules/documentation": 1,
+          "reflection/modules/evolution": 1,
+          "reflection/modules/reporting": 1
+        },
+        "largest_files": [
+          {
+            "path": "daily_reflection_dashboard.png",
+            "size_bytes": 575618,
+            "type": "other"
+          },
+          {
+            "path": "src/trading/paper_trading_engine.py",
+            "size_bytes": 31919,
+            "type": "code"
+          },
+          {
+            "path": "src/core/prophet_core.py",
+            "size_bytes": 31840,
+            "type": "code"
+          },
+          {
+            "path": "AI_PROPHET_SYSTEM_DOCUMENTATION.md",
+            "size_bytes": 26030,
+            "type": "documentation"
+          },
+          {
+            "path": "src/trading/day_trading_engine.py",
+            "size_bytes": 25369,
+            "type": "code"
+          },
+          {
+            "path": "daily_self_reflection.py",
+            "size_bytes": 23564,
+            "type": "code"
+          },
+          {
+            "path": "src/simulations/timeline_simulator.py",
+            "size_bytes": 23455,
+            "type": "code"
+          },
+          {
+            "path": "src/core/recursive_learning.py",
+            "size_bytes": 22992,
+            "type": "code"
+          },
+          {
+            "path": "src/trading/trading_mode_controller.py",
+            "size_bytes": 20197,
+            "type": "code"
+          },
+          {
+            "path": "src/scrapers/daily_scraper_pipeline.py",
+            "size_bytes": 19647,
+            "type": "code"
+          }
+        ],
+        "recently_modified": [
+          {
+            "path": "run_reflection.py",
+            "last_modified": "2026-01-12T04:02:55.552161",
+            "type": "code"
+          },
+          {
+            "path": "reflection_integration.py",
+            "last_modified": "2026-01-12T04:02:42.068175",
+            "type": "code"
+          },
+          {
+            "path": "REFLECTION_README.md",
+            "last_modified": "2026-01-12T04:02:04.488217",
+            "type": "documentation"
+          },
+          {
+            "path": "reflection_config.yaml",
+            "last_modified": "2026-01-12T04:02:04.484217",
+            "type": "config"
+          },
+          {
+            "path": "reflection_requirements.txt",
+            "last_modified": "2026-01-12T04:02:04.484217",
+            "type": "documentation"
+          },
+          {
+            "path": "reflection/core/config_manager.py",
+            "last_modified": "2026-01-12T04:02:04.480217",
+            "type": "code"
+          },
+          {
+            "path": "reflection/core/__init__.py",
+            "last_modified": "2026-01-12T04:02:04.480217",
+            "type": "code"
+          },
+          {
+            "path": "reflection/modules/inventory/asset_tracker.py",
+            "last_modified": "2026-01-12T04:02:04.480217",
+            "type": "code"
+          },
+          {
+            "path": "reflection/modules/inventory/dependency_mapper.py",
+            "last_modified": "2026-01-12T04:02:04.480217",
+            "type": "code"
+          },
+          {
+            "path": "reflection/modules/inventory/__init__.py",
+            "last_modified": "2026-01-12T04:02:04.480217",
+            "type": "code"
+          }
+        ]
+      },
+      "assets": [
+        {
+          "path": "AI_PROPHET_SYSTEM_DOCUMENTATION.md",
+          "absolute_path": "/home/ubuntu/ai-prophet/AI_PROPHET_SYSTEM_DOCUMENTATION.md",
+          "type": "documentation",
+          "size_bytes": 26030,
+          "last_modified": "2026-01-11T23:04:14.742597",
+          "checksum": null,
+          "metadata": {}
+        },
+        {
+          "path": "README.md",
+          "absolute_path": "/home/ubuntu/ai-prophet/README.md",
+          "type": "documentation",
+          "size_bytes": 11511,
+          "last_modified": "2026-01-11T23:04:14.742597",
+          "checksum": null,
+          "metadata": {}
+        },
+        {
+          "path": "main.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/main.py",
+          "type": "code",
+          "size_bytes": 17263,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:8701ed1fe919f96952da8aa0023eef77afc8193a04e236eedfb87aa36ef7bda2",
+          "metadata": {
+            "lines": 460,
+            "functions": 13,
+            "classes": 1
+          }
+        },
+        {
+          "path": "requirements.txt",
+          "absolute_path": "/home/ubuntu/ai-prophet/requirements.txt",
+          "type": "documentation",
+          "size_bytes": 1177,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": null,
+          "metadata": {}
+        },
+        {
+          "path": "run_day_trading.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/run_day_trading.py",
+          "type": "code",
+          "size_bytes": 19405,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:15c180d77123b142eea20012a3b2973c2be0a989bcc1cd305eb6fe8bd2704e4b",
+          "metadata": {
+            "lines": 506,
+            "functions": 14,
+            "classes": 2
+          }
+        },
+        {
+          "path": "daily_self_reflection.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/daily_self_reflection.py",
+          "type": "code",
+          "size_bytes": 23564,
+          "last_modified": "2026-01-11T23:06:17.535764",
+          "checksum": "sha256:c63f55f18beb7a96e7d61908a1620c6aadeeb1e082b18884c7d09a9934d2b912",
+          "metadata": {
+            "lines": 523,
+            "functions": 13,
+            "classes": 4
+          }
+        },
+        {
+          "path": "update_model_weights.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/update_model_weights.py",
+          "type": "code",
+          "size_bytes": 11868,
+          "last_modified": "2026-01-11T23:07:02.204196",
+          "checksum": "sha256:1a53db0ad9319948c1493822e6fdd054a7359e60f84368a89578d47cefc958b4",
+          "metadata": {
+            "lines": 289,
+            "functions": 8,
+            "classes": 1
+          }
+        },
+        {
+          "path": "generate_final_report.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/generate_final_report.py",
+          "type": "code",
+          "size_bytes": 2172,
+          "last_modified": "2026-01-11T23:07:24.640409",
+          "checksum": "sha256:6b4ddec462925bff540aa2569fdef99bc953d962e10cf80e4f0bdb590aeece54",
+          "metadata": {
+            "lines": 61,
+            "functions": 1,
+            "classes": 0
+          }
+        },
+        {
+          "path": "AI_PROPHET_DAILY_LEARNING_REPORT_20260111.md",
+          "absolute_path": "/home/ubuntu/ai-prophet/AI_PROPHET_DAILY_LEARNING_REPORT_20260111.md",
+          "type": "documentation",
+          "size_bytes": 2836,
+          "last_modified": "2026-01-11T23:07:28.608447",
+          "checksum": null,
+          "metadata": {}
+        },
+        {
+          "path": "daily_reflection_dashboard.png",
+          "absolute_path": "/home/ubuntu/ai-prophet/daily_reflection_dashboard.png",
+          "type": "other",
+          "size_bytes": 575618,
+          "last_modified": "2026-01-11T23:08:42.105151",
+          "checksum": null,
+          "metadata": {}
+        },
+        {
+          "path": "reflection_integration.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/reflection_integration.py",
+          "type": "code",
+          "size_bytes": 4422,
+          "last_modified": "2026-01-12T04:02:42.068175",
+          "checksum": "sha256:f1327b5fa1adb392f387b72a41caf4fc1b8c87b815dac2cc45e29a6396f44471",
+          "metadata": {
+            "lines": 123,
+            "functions": 7,
+            "classes": 1
+          }
+        },
+        {
+          "path": "reflection_config.yaml",
+          "absolute_path": "/home/ubuntu/ai-prophet/reflection_config.yaml",
+          "type": "config",
+          "size_bytes": 1070,
+          "last_modified": "2026-01-12T04:02:04.484217",
+          "checksum": "sha256:fdb9b2e305eceb9301bb0a5fbdfe0d9e805214cc26d0bab883bc12b0ebbd8264",
+          "metadata": {}
+        },
+        {
+          "path": "reflection_requirements.txt",
+          "absolute_path": "/home/ubuntu/ai-prophet/reflection_requirements.txt",
+          "type": "documentation",
+          "size_bytes": 74,
+          "last_modified": "2026-01-12T04:02:04.484217",
+          "checksum": null,
+          "metadata": {}
+        },
+        {
+          "path": "run_reflection.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/run_reflection.py",
+          "type": "code",
+          "size_bytes": 681,
+          "last_modified": "2026-01-12T04:02:55.552161",
+          "checksum": "sha256:f36c6e8e1583232431d7f6bdd8138a2a67dbf6e3e2ab937a7ec57b7730b9d01e",
+          "metadata": {
+            "lines": 31,
+            "functions": 1,
+            "classes": 0
+          }
+        },
+        {
+          "path": "REFLECTION_README.md",
+          "absolute_path": "/home/ubuntu/ai-prophet/REFLECTION_README.md",
+          "type": "documentation",
+          "size_bytes": 2684,
+          "last_modified": "2026-01-12T04:02:04.488217",
+          "checksum": null,
+          "metadata": {}
+        },
+        {
+          "path": "data/day_trading/state_20260111.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/day_trading/state_20260111.json",
+          "type": "config",
+          "size_bytes": 1296,
+          "last_modified": "2026-01-11T23:04:14.742597",
+          "checksum": "sha256:dd0b357964f638f065caa471093f8bd89992bd6ce13ca69566afb8e88de2deda",
+          "metadata": {
+            "keys": [
+              "portfolio_value",
+              "daily_pnl",
+              "open_positions",
+              "closed_trades",
+              "timestamp"
+            ]
+          }
+        },
+        {
+          "path": "data/day_trading_cycles/cycle_1_20260111_100723.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/day_trading_cycles/cycle_1_20260111_100723.json",
+          "type": "config",
+          "size_bytes": 10291,
+          "last_modified": "2026-01-11T23:04:14.742597",
+          "checksum": "sha256:36a324656fb667e68ab7176ae99d50766df93ef69885d83751892a092599c1a9",
+          "metadata": {
+            "keys": [
+              "cycle",
+              "start_time",
+              "stages",
+              "summary",
+              "end_time",
+              "duration_seconds"
+            ]
+          }
+        },
+        {
+          "path": "data/day_trading_cycles/cycle_1_20260111_120201.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/day_trading_cycles/cycle_1_20260111_120201.json",
+          "type": "config",
+          "size_bytes": 9634,
+          "last_modified": "2026-01-11T23:04:14.742597",
+          "checksum": "sha256:79d3e90ca2a9bfd8dba48d98a00ff185cd49f9179c5ccd49b3640e0aacb3ed3f",
+          "metadata": {
+            "keys": [
+              "cycle",
+              "start_time",
+              "stages",
+              "summary",
+              "end_time",
+              "duration_seconds"
+            ]
+          }
+        },
+        {
+          "path": "data/day_trading_cycles/cycle_1_20260111_140152.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/day_trading_cycles/cycle_1_20260111_140152.json",
+          "type": "config",
+          "size_bytes": 10246,
+          "last_modified": "2026-01-11T23:04:14.742597",
+          "checksum": "sha256:5ae1ba7b95effbb5f8cbe4ecfb206c4187811d88b94919a042dcac595e028c1a",
+          "metadata": {
+            "keys": [
+              "cycle",
+              "start_time",
+              "stages",
+              "summary",
+              "end_time",
+              "duration_seconds"
+            ]
+          }
+        },
+        {
+          "path": "data/day_trading_cycles/cycle_1_20260111_160428.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/day_trading_cycles/cycle_1_20260111_160428.json",
+          "type": "config",
+          "size_bytes": 10921,
+          "last_modified": "2026-01-11T23:04:14.742597",
+          "checksum": "sha256:6538f567e2736018831d8dfdfc53ea815a86b775a9c8647cdcd093b0237dc39a",
+          "metadata": {
+            "keys": [
+              "cycle",
+              "start_time",
+              "stages",
+              "summary",
+              "end_time",
+              "duration_seconds"
+            ]
+          }
+        },
+        {
+          "path": "data/day_trading_cycles/cycle_1_20260111_180303.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/day_trading_cycles/cycle_1_20260111_180303.json",
+          "type": "config",
+          "size_bytes": 10110,
+          "last_modified": "2026-01-11T23:04:14.742597",
+          "checksum": "sha256:4cdfbc2524f3243879c1327c3f1195298c7c4642c28143f995bfae188d130a49",
+          "metadata": {
+            "keys": [
+              "cycle",
+              "start_time",
+              "stages",
+              "summary",
+              "end_time",
+              "duration_seconds"
+            ]
+          }
+        },
+        {
+          "path": "data/day_trading_cycles/cycle_1_20260111_200218.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/day_trading_cycles/cycle_1_20260111_200218.json",
+          "type": "config",
+          "size_bytes": 7339,
+          "last_modified": "2026-01-11T23:04:14.742597",
+          "checksum": "sha256:47cc28ae49b6aad6d6d52d75ec73c3679c346068bcb7e73d0adda7ed426c752a",
+          "metadata": {
+            "keys": [
+              "cycle",
+              "start_time",
+              "stages",
+              "summary",
+              "end_time",
+              "duration_seconds"
+            ]
+          }
+        },
+        {
+          "path": "data/day_trading_cycles/cycle_1_20260111_220306.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/day_trading_cycles/cycle_1_20260111_220306.json",
+          "type": "config",
+          "size_bytes": 6082,
+          "last_modified": "2026-01-11T23:04:14.742597",
+          "checksum": "sha256:d0362d2d11e9051be6228428f47bf03616c451d432840b5e8daf7f9c8d7f9ff8",
+          "metadata": {
+            "keys": [
+              "cycle",
+              "start_time",
+              "stages",
+              "summary",
+              "end_time",
+              "duration_seconds"
+            ]
+          }
+        },
+        {
+          "path": "data/day_trading_cycles/cycle_2_20260111_100728.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/day_trading_cycles/cycle_2_20260111_100728.json",
+          "type": "config",
+          "size_bytes": 8386,
+          "last_modified": "2026-01-11T23:04:14.742597",
+          "checksum": "sha256:7b660b2a2ca30d6010fb3b1c776d727fbccaa577e972510daf57576831d3f932",
+          "metadata": {
+            "keys": [
+              "cycle",
+              "start_time",
+              "stages",
+              "summary",
+              "end_time",
+              "duration_seconds"
+            ]
+          }
+        },
+        {
+          "path": "data/day_trading_cycles/cycle_3_20260111_100733.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/day_trading_cycles/cycle_3_20260111_100733.json",
+          "type": "config",
+          "size_bytes": 7749,
+          "last_modified": "2026-01-11T23:04:14.742597",
+          "checksum": "sha256:3a542b2a9efd6ffb0f1fa7b8e578af4086c963711e64c338b8518617f0ff0171",
+          "metadata": {
+            "keys": [
+              "cycle",
+              "start_time",
+              "stages",
+              "summary",
+              "end_time",
+              "duration_seconds"
+            ]
+          }
+        },
+        {
+          "path": "data/learning/learning_report_20260111.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/learning/learning_report_20260111.json",
+          "type": "config",
+          "size_bytes": 512,
+          "last_modified": "2026-01-11T23:04:14.742597",
+          "checksum": "sha256:190ad5c10d9255c6d8bc20a2bc886303f1403b86a76ba2a756a8ddfb81480c6c",
+          "metadata": {
+            "keys": [
+              "report_date",
+              "period_days",
+              "overall_statistics",
+              "signal_distribution",
+              "model_performances",
+              "symbol_insights",
+              "current_adjustments",
+              "recommendations"
+            ]
+          }
+        },
+        {
+          "path": "data/learning/daily_reflection_20260111.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/learning/daily_reflection_20260111.json",
+          "type": "config",
+          "size_bytes": 2742,
+          "last_modified": "2026-01-11T23:06:21.663803",
+          "checksum": "sha256:b1dd599f1c80a8810120aef808eaeaad6443702825cd32c5d17378c0baaa2a3d",
+          "metadata": {
+            "keys": [
+              "date",
+              "overall_metrics",
+              "prediction_analysis",
+              "trade_analysis",
+              "model_performance",
+              "asset_class_performance",
+              "strategy_insights",
+              "model_weight_adjustments",
+              "recommendations"
+            ]
+          }
+        },
+        {
+          "path": "data/learning/daily_reflection_20260111.md",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/learning/daily_reflection_20260111.md",
+          "type": "documentation",
+          "size_bytes": 1737,
+          "last_modified": "2026-01-11T23:06:21.663803",
+          "checksum": null,
+          "metadata": {}
+        },
+        {
+          "path": "data/learning/weight_update_20260111.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/learning/weight_update_20260111.json",
+          "type": "config",
+          "size_bytes": 352,
+          "last_modified": "2026-01-11T23:07:06.360235",
+          "checksum": "sha256:591ca0701df7c25a84aab6df1b871d562aa0f43b8896c14d59776d02b5db307a",
+          "metadata": {
+            "keys": [
+              "model_weights",
+              "last_updated",
+              "previous_weights",
+              "adjustments_made",
+              "update_reason"
+            ]
+          }
+        },
+        {
+          "path": "data/learning/weight_update_20260111.md",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/learning/weight_update_20260111.md",
+          "type": "documentation",
+          "size_bytes": 916,
+          "last_modified": "2026-01-11T23:07:06.360235",
+          "checksum": null,
+          "metadata": {}
+        },
+        {
+          "path": "data/pipeline_results/pipeline_20260111_100739.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/pipeline_results/pipeline_20260111_100739.json",
+          "type": "config",
+          "size_bytes": 168,
+          "last_modified": "2026-01-11T23:04:14.742597",
+          "checksum": "sha256:fb4cdd33e7bb7c1a3c2f94613eada6b0724ee5427bd79d479c08163c0e708eca",
+          "metadata": {
+            "keys": [
+              "date",
+              "pipeline_status",
+              "stages",
+              "error"
+            ]
+          }
+        },
+        {
+          "path": "data/pipeline_results/pipeline_20260111_100804.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/pipeline_results/pipeline_20260111_100804.json",
+          "type": "config",
+          "size_bytes": 548,
+          "last_modified": "2026-01-11T23:04:14.742597",
+          "checksum": "sha256:ad3a4892ca01994325763365871a79457cb448b6464238b174e682dcf2b0b945",
+          "metadata": {
+            "keys": [
+              "date",
+              "pipeline_status",
+              "stages"
+            ]
+          }
+        },
+        {
+          "path": "data/portfolios/AI_PROPHET_MASTER.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/portfolios/AI_PROPHET_MASTER.json",
+          "type": "config",
+          "size_bytes": 727,
+          "last_modified": "2026-01-11T23:04:14.742597",
+          "checksum": "sha256:6227cb692ddd85fd7400deda10e758cabff67ba80ddc064c08d247c9a40cdba1",
+          "metadata": {
+            "keys": [
+              "portfolio_id",
+              "owner_id",
+              "initial_capital",
+              "trading_mode",
+              "is_ai_portfolio",
+              "created_at",
+              "positions",
+              "open_orders",
+              "recent_trades",
+              "stats"
+            ]
+          }
+        },
+        {
+          "path": "data/scraped/crypto_data_20260111_100804.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/scraped/crypto_data_20260111_100804.json",
+          "type": "config",
+          "size_bytes": 7220,
+          "last_modified": "2026-01-11T23:04:14.742597",
+          "checksum": "sha256:8297ba317d06e1e6ed0dc82d8e09bba8a2e196090c2901d9b880d25470378825",
+          "metadata": {
+            "keys": null
+          }
+        },
+        {
+          "path": "data/scraped/economic_calendar_20260111_100804.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/scraped/economic_calendar_20260111_100804.json",
+          "type": "config",
+          "size_bytes": 272,
+          "last_modified": "2026-01-11T23:04:14.742597",
+          "checksum": "sha256:0e55ed00ee5892b0b4eadea2d35eb61d8dcac60a19b0f658d35fe9949804b58d",
+          "metadata": {
+            "keys": null
+          }
+        },
+        {
+          "path": "data/scraped/financial_news_20260111_100804.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/scraped/financial_news_20260111_100804.json",
+          "type": "config",
+          "size_bytes": 2129,
+          "last_modified": "2026-01-11T23:04:14.742597",
+          "checksum": "sha256:ea1a11977388a32090f122b44eca185f215cbb3a4b37f4cd5d8d3c1adc7090e6",
+          "metadata": {
+            "keys": null
+          }
+        },
+        {
+          "path": "data/scraped/market_data_20260111_100804.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/scraped/market_data_20260111_100804.json",
+          "type": "config",
+          "size_bytes": 11024,
+          "last_modified": "2026-01-11T23:04:14.742597",
+          "checksum": "sha256:6799a1b833001e00652082119cdc42c6b7e8d53ebb81dc3af6707dc0ab424d93",
+          "metadata": {
+            "keys": null
+          }
+        },
+        {
+          "path": "data/scraped/short_interest_20260111_100804.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/scraped/short_interest_20260111_100804.json",
+          "type": "config",
+          "size_bytes": 296,
+          "last_modified": "2026-01-11T23:04:14.742597",
+          "checksum": "sha256:1c9fc4b44a2788241550508a095981dd715a1f29cf4e8ca36604ae1f9b8c803e",
+          "metadata": {
+            "keys": null
+          }
+        },
+        {
+          "path": "data/scraped/social_sentiment_20260111_100804.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/scraped/social_sentiment_20260111_100804.json",
+          "type": "config",
+          "size_bytes": 1633,
+          "last_modified": "2026-01-11T23:04:14.742597",
+          "checksum": "sha256:acc3db89bd4d2d0eb2f13fbff283d31a44ea152c41eb932bf15cf9cd3ade9e20",
+          "metadata": {
+            "keys": null
+          }
+        },
+        {
+          "path": "data/simulations/TL-01d32729.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/simulations/TL-01d32729.json",
+          "type": "config",
+          "size_bytes": 9397,
+          "last_modified": "2026-01-11T23:04:14.742597",
+          "checksum": "sha256:a58eeaed524abe4be810538b1cdde8eb5dc64441b90702999e24c65491e4908e",
+          "metadata": {
+            "keys": [
+              "timeline_id",
+              "timeline_type",
+              "target_asset",
+              "start_date",
+              "end_date",
+              "probability",
+              "description",
+              "theory_basis",
+              "states",
+              "key_events",
+              "final_prediction",
+              "created_at",
+              "actual_outcome",
+              "accuracy_score",
+              "reflection"
+            ]
+          }
+        },
+        {
+          "path": "data/simulations/TL-0c1c5148.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/simulations/TL-0c1c5148.json",
+          "type": "config",
+          "size_bytes": 10031,
+          "last_modified": "2026-01-11T23:04:14.742597",
+          "checksum": "sha256:f951321d5ef07bf48a0204a626d911de402264007b4eff699f602a5abb5c33e7",
+          "metadata": {
+            "keys": [
+              "timeline_id",
+              "timeline_type",
+              "target_asset",
+              "start_date",
+              "end_date",
+              "probability",
+              "description",
+              "theory_basis",
+              "states",
+              "key_events",
+              "final_prediction",
+              "created_at",
+              "actual_outcome",
+              "accuracy_score",
+              "reflection"
+            ]
+          }
+        },
+        {
+          "path": "data/simulations/TL-0ce75f45.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/simulations/TL-0ce75f45.json",
+          "type": "config",
+          "size_bytes": 10354,
+          "last_modified": "2026-01-11T23:04:14.742597",
+          "checksum": "sha256:07a1169f233a0bc5aabd9a5931f887111155bd132b64d5798e0d5d83cc7fb9d9",
+          "metadata": {
+            "keys": [
+              "timeline_id",
+              "timeline_type",
+              "target_asset",
+              "start_date",
+              "end_date",
+              "probability",
+              "description",
+              "theory_basis",
+              "states",
+              "key_events",
+              "final_prediction",
+              "created_at",
+              "actual_outcome",
+              "accuracy_score",
+              "reflection"
+            ]
+          }
+        },
+        {
+          "path": "data/simulations/TL-0d7cc4be.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/simulations/TL-0d7cc4be.json",
+          "type": "config",
+          "size_bytes": 9732,
+          "last_modified": "2026-01-11T23:04:14.742597",
+          "checksum": "sha256:d72c0fbff98812982cb0a9e7023bd9e1a65c229a59a7427595dc30049c39bdbe",
+          "metadata": {
+            "keys": [
+              "timeline_id",
+              "timeline_type",
+              "target_asset",
+              "start_date",
+              "end_date",
+              "probability",
+              "description",
+              "theory_basis",
+              "states",
+              "key_events",
+              "final_prediction",
+              "created_at",
+              "actual_outcome",
+              "accuracy_score",
+              "reflection"
+            ]
+          }
+        },
+        {
+          "path": "data/simulations/TL-12ffda32.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/simulations/TL-12ffda32.json",
+          "type": "config",
+          "size_bytes": 9395,
+          "last_modified": "2026-01-11T23:04:14.742597",
+          "checksum": "sha256:6566507a51f57ce45d7fbc9a5927e99c664ad108e529a438a35b1e480f2dc211",
+          "metadata": {
+            "keys": [
+              "timeline_id",
+              "timeline_type",
+              "target_asset",
+              "start_date",
+              "end_date",
+              "probability",
+              "description",
+              "theory_basis",
+              "states",
+              "key_events",
+              "final_prediction",
+              "created_at",
+              "actual_outcome",
+              "accuracy_score",
+              "reflection"
+            ]
+          }
+        },
+        {
+          "path": "data/simulations/TL-1ad288dc.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/simulations/TL-1ad288dc.json",
+          "type": "config",
+          "size_bytes": 10350,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:41503c68acd9d2ea980fe775f2b66c00bf7edfc523281af453a81e51f2226f71",
+          "metadata": {
+            "keys": [
+              "timeline_id",
+              "timeline_type",
+              "target_asset",
+              "start_date",
+              "end_date",
+              "probability",
+              "description",
+              "theory_basis",
+              "states",
+              "key_events",
+              "final_prediction",
+              "created_at",
+              "actual_outcome",
+              "accuracy_score",
+              "reflection"
+            ]
+          }
+        },
+        {
+          "path": "data/simulations/TL-231d32a5.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/simulations/TL-231d32a5.json",
+          "type": "config",
+          "size_bytes": 9434,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:846f1d03c1d8b368c01347edaeb0f5e57c3207f38927f028ace50dde66cdfdde",
+          "metadata": {
+            "keys": [
+              "timeline_id",
+              "timeline_type",
+              "target_asset",
+              "start_date",
+              "end_date",
+              "probability",
+              "description",
+              "theory_basis",
+              "states",
+              "key_events",
+              "final_prediction",
+              "created_at",
+              "actual_outcome",
+              "accuracy_score",
+              "reflection"
+            ]
+          }
+        },
+        {
+          "path": "data/simulations/TL-3215fa3c.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/simulations/TL-3215fa3c.json",
+          "type": "config",
+          "size_bytes": 9727,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:6139435eb9baeae1ca1de1cf9fd60228382a982f53e9af1cb70e7fd53a5bdd34",
+          "metadata": {
+            "keys": [
+              "timeline_id",
+              "timeline_type",
+              "target_asset",
+              "start_date",
+              "end_date",
+              "probability",
+              "description",
+              "theory_basis",
+              "states",
+              "key_events",
+              "final_prediction",
+              "created_at",
+              "actual_outcome",
+              "accuracy_score",
+              "reflection"
+            ]
+          }
+        },
+        {
+          "path": "data/simulations/TL-35176442.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/simulations/TL-35176442.json",
+          "type": "config",
+          "size_bytes": 9714,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:9fd7e766760ef9a957b26e3911bbc8a7ffae6d54cbe23afae773dcb93ffd1b92",
+          "metadata": {
+            "keys": [
+              "timeline_id",
+              "timeline_type",
+              "target_asset",
+              "start_date",
+              "end_date",
+              "probability",
+              "description",
+              "theory_basis",
+              "states",
+              "key_events",
+              "final_prediction",
+              "created_at",
+              "actual_outcome",
+              "accuracy_score",
+              "reflection"
+            ]
+          }
+        },
+        {
+          "path": "data/simulations/TL-43e79c11.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/simulations/TL-43e79c11.json",
+          "type": "config",
+          "size_bytes": 10085,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:3bb2345a9a0c55436afc9d875de97b41eaec61a55a3497b142f461e059a04547",
+          "metadata": {
+            "keys": [
+              "timeline_id",
+              "timeline_type",
+              "target_asset",
+              "start_date",
+              "end_date",
+              "probability",
+              "description",
+              "theory_basis",
+              "states",
+              "key_events",
+              "final_prediction",
+              "created_at",
+              "actual_outcome",
+              "accuracy_score",
+              "reflection"
+            ]
+          }
+        },
+        {
+          "path": "data/simulations/TL-5250a61a.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/simulations/TL-5250a61a.json",
+          "type": "config",
+          "size_bytes": 9708,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:390c32b51e30a61af27c5d47dc8901b93698922359341fcebb37b89d7c874c49",
+          "metadata": {
+            "keys": [
+              "timeline_id",
+              "timeline_type",
+              "target_asset",
+              "start_date",
+              "end_date",
+              "probability",
+              "description",
+              "theory_basis",
+              "states",
+              "key_events",
+              "final_prediction",
+              "created_at",
+              "actual_outcome",
+              "accuracy_score",
+              "reflection"
+            ]
+          }
+        },
+        {
+          "path": "data/simulations/TL-5e1e0a87.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/simulations/TL-5e1e0a87.json",
+          "type": "config",
+          "size_bytes": 9983,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:bb8c1b4bd541581110ef7e3e5fa93fb549aa8f9c876dc818d151ff946d733790",
+          "metadata": {
+            "keys": [
+              "timeline_id",
+              "timeline_type",
+              "target_asset",
+              "start_date",
+              "end_date",
+              "probability",
+              "description",
+              "theory_basis",
+              "states",
+              "key_events",
+              "final_prediction",
+              "created_at",
+              "actual_outcome",
+              "accuracy_score",
+              "reflection"
+            ]
+          }
+        },
+        {
+          "path": "data/simulations/TL-6a673105.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/simulations/TL-6a673105.json",
+          "type": "config",
+          "size_bytes": 9399,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:03cd11df138dcc399ee45374f020a0128c8415ef9dba1adac26c3a84fde0eb81",
+          "metadata": {
+            "keys": [
+              "timeline_id",
+              "timeline_type",
+              "target_asset",
+              "start_date",
+              "end_date",
+              "probability",
+              "description",
+              "theory_basis",
+              "states",
+              "key_events",
+              "final_prediction",
+              "created_at",
+              "actual_outcome",
+              "accuracy_score",
+              "reflection"
+            ]
+          }
+        },
+        {
+          "path": "data/simulations/TL-6cdc6b5b.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/simulations/TL-6cdc6b5b.json",
+          "type": "config",
+          "size_bytes": 9401,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:1b55a6c0a3a974aae0405fa0c27b6ebbe31565ce86fe97cc8801b2e6e95c53f1",
+          "metadata": {
+            "keys": [
+              "timeline_id",
+              "timeline_type",
+              "target_asset",
+              "start_date",
+              "end_date",
+              "probability",
+              "description",
+              "theory_basis",
+              "states",
+              "key_events",
+              "final_prediction",
+              "created_at",
+              "actual_outcome",
+              "accuracy_score",
+              "reflection"
+            ]
+          }
+        },
+        {
+          "path": "data/simulations/TL-6d00abf8.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/simulations/TL-6d00abf8.json",
+          "type": "config",
+          "size_bytes": 10332,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:e7b79a57d49d1ab327bfab25a89311fcbd627267639a2effb7f9eb2ba9f1dd62",
+          "metadata": {
+            "keys": [
+              "timeline_id",
+              "timeline_type",
+              "target_asset",
+              "start_date",
+              "end_date",
+              "probability",
+              "description",
+              "theory_basis",
+              "states",
+              "key_events",
+              "final_prediction",
+              "created_at",
+              "actual_outcome",
+              "accuracy_score",
+              "reflection"
+            ]
+          }
+        },
+        {
+          "path": "data/simulations/TL-7b03b638.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/simulations/TL-7b03b638.json",
+          "type": "config",
+          "size_bytes": 9663,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:29b47e14aa8f35c508eab112fabbf56d4f2c7750caa6c9bcbcaf56ee501d0f62",
+          "metadata": {
+            "keys": [
+              "timeline_id",
+              "timeline_type",
+              "target_asset",
+              "start_date",
+              "end_date",
+              "probability",
+              "description",
+              "theory_basis",
+              "states",
+              "key_events",
+              "final_prediction",
+              "created_at",
+              "actual_outcome",
+              "accuracy_score",
+              "reflection"
+            ]
+          }
+        },
+        {
+          "path": "data/simulations/TL-82e88db9.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/simulations/TL-82e88db9.json",
+          "type": "config",
+          "size_bytes": 10009,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:6cfddb80bd3bc0c255e0d96f7ab24614884d2ea894098dc487efdef4fb34baf7",
+          "metadata": {
+            "keys": [
+              "timeline_id",
+              "timeline_type",
+              "target_asset",
+              "start_date",
+              "end_date",
+              "probability",
+              "description",
+              "theory_basis",
+              "states",
+              "key_events",
+              "final_prediction",
+              "created_at",
+              "actual_outcome",
+              "accuracy_score",
+              "reflection"
+            ]
+          }
+        },
+        {
+          "path": "data/simulations/TL-8e302d8f.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/simulations/TL-8e302d8f.json",
+          "type": "config",
+          "size_bytes": 10319,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:9a951b4a6671c760c33848430849da9174f07ba7ec183d7c31503a5c232dca41",
+          "metadata": {
+            "keys": [
+              "timeline_id",
+              "timeline_type",
+              "target_asset",
+              "start_date",
+              "end_date",
+              "probability",
+              "description",
+              "theory_basis",
+              "states",
+              "key_events",
+              "final_prediction",
+              "created_at",
+              "actual_outcome",
+              "accuracy_score",
+              "reflection"
+            ]
+          }
+        },
+        {
+          "path": "data/simulations/TL-a0cff0e3.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/simulations/TL-a0cff0e3.json",
+          "type": "config",
+          "size_bytes": 9702,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:dbbdf5cfdf100e6799d8773bcbbc508c267fb54a2f4c1524ac1c4f5853148623",
+          "metadata": {
+            "keys": [
+              "timeline_id",
+              "timeline_type",
+              "target_asset",
+              "start_date",
+              "end_date",
+              "probability",
+              "description",
+              "theory_basis",
+              "states",
+              "key_events",
+              "final_prediction",
+              "created_at",
+              "actual_outcome",
+              "accuracy_score",
+              "reflection"
+            ]
+          }
+        },
+        {
+          "path": "data/simulations/TL-b8316659.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/simulations/TL-b8316659.json",
+          "type": "config",
+          "size_bytes": 10404,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:982772ac692e3a1858ccff8f75b2d13619d5d9ddbb765cd3431df9d23b7fe157",
+          "metadata": {
+            "keys": [
+              "timeline_id",
+              "timeline_type",
+              "target_asset",
+              "start_date",
+              "end_date",
+              "probability",
+              "description",
+              "theory_basis",
+              "states",
+              "key_events",
+              "final_prediction",
+              "created_at",
+              "actual_outcome",
+              "accuracy_score",
+              "reflection"
+            ]
+          }
+        },
+        {
+          "path": "data/simulations/TL-bfe2b818.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/simulations/TL-bfe2b818.json",
+          "type": "config",
+          "size_bytes": 9695,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:f945e71d5fe668a3a9bb594235210cc92a916fff590b9f5355217cd1c9b61ef4",
+          "metadata": {
+            "keys": [
+              "timeline_id",
+              "timeline_type",
+              "target_asset",
+              "start_date",
+              "end_date",
+              "probability",
+              "description",
+              "theory_basis",
+              "states",
+              "key_events",
+              "final_prediction",
+              "created_at",
+              "actual_outcome",
+              "accuracy_score",
+              "reflection"
+            ]
+          }
+        },
+        {
+          "path": "data/simulations/TL-cfbe5a39.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/simulations/TL-cfbe5a39.json",
+          "type": "config",
+          "size_bytes": 10055,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:f15257142ac396dff4bce932a17d7ac5b39e2bed2bf79a486b92fba5c070f812",
+          "metadata": {
+            "keys": [
+              "timeline_id",
+              "timeline_type",
+              "target_asset",
+              "start_date",
+              "end_date",
+              "probability",
+              "description",
+              "theory_basis",
+              "states",
+              "key_events",
+              "final_prediction",
+              "created_at",
+              "actual_outcome",
+              "accuracy_score",
+              "reflection"
+            ]
+          }
+        },
+        {
+          "path": "data/simulations/TL-dcac7192.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/simulations/TL-dcac7192.json",
+          "type": "config",
+          "size_bytes": 10347,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:e31802b775776f5421b1e60244537842aa0ff20d65840266e64a7cb2b30ceb80",
+          "metadata": {
+            "keys": [
+              "timeline_id",
+              "timeline_type",
+              "target_asset",
+              "start_date",
+              "end_date",
+              "probability",
+              "description",
+              "theory_basis",
+              "states",
+              "key_events",
+              "final_prediction",
+              "created_at",
+              "actual_outcome",
+              "accuracy_score",
+              "reflection"
+            ]
+          }
+        },
+        {
+          "path": "data/simulations/TL-e612656f.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/simulations/TL-e612656f.json",
+          "type": "config",
+          "size_bytes": 9434,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:c9cf9543342a9fb6547df276d21143d39f13ac9785e75578c7f0612513aba4c8",
+          "metadata": {
+            "keys": [
+              "timeline_id",
+              "timeline_type",
+              "target_asset",
+              "start_date",
+              "end_date",
+              "probability",
+              "description",
+              "theory_basis",
+              "states",
+              "key_events",
+              "final_prediction",
+              "created_at",
+              "actual_outcome",
+              "accuracy_score",
+              "reflection"
+            ]
+          }
+        },
+        {
+          "path": "data/simulations/TL-e885bdf0.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/data/simulations/TL-e885bdf0.json",
+          "type": "config",
+          "size_bytes": 9475,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:ca373bdbad2038aa83b5e031341ccceb16b401b42da1115f6c9ff141988e872d",
+          "metadata": {
+            "keys": [
+              "timeline_id",
+              "timeline_type",
+              "target_asset",
+              "start_date",
+              "end_date",
+              "probability",
+              "description",
+              "theory_basis",
+              "states",
+              "key_events",
+              "final_prediction",
+              "created_at",
+              "actual_outcome",
+              "accuracy_score",
+              "reflection"
+            ]
+          }
+        },
+        {
+          "path": "src/__init__.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/src/__init__.py",
+          "type": "code",
+          "size_bytes": 0,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "metadata": {
+            "lines": 1,
+            "functions": 0,
+            "classes": 0
+          }
+        },
+        {
+          "path": "src/api/__init__.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/src/api/__init__.py",
+          "type": "code",
+          "size_bytes": 0,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "metadata": {
+            "lines": 1,
+            "functions": 0,
+            "classes": 0
+          }
+        },
+        {
+          "path": "src/api/dashboard_api.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/src/api/dashboard_api.py",
+          "type": "code",
+          "size_bytes": 14673,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:d22df1cc34da1f8f624548a6f95159aa3b49de4ad0512e29851407eeb6970495",
+          "metadata": {
+            "lines": 473,
+            "functions": 26,
+            "classes": 6
+          }
+        },
+        {
+          "path": "src/core/__init__.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/src/core/__init__.py",
+          "type": "code",
+          "size_bytes": 0,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "metadata": {
+            "lines": 1,
+            "functions": 0,
+            "classes": 0
+          }
+        },
+        {
+          "path": "src/core/prophet_core.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/src/core/prophet_core.py",
+          "type": "code",
+          "size_bytes": 31840,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:8e83c904596a0ca924a8e049124c184b773dd3b8ff7a0d62321838d253ec5eda",
+          "metadata": {
+            "lines": 855,
+            "functions": 30,
+            "classes": 11
+          }
+        },
+        {
+          "path": "src/core/recursive_learning.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/src/core/recursive_learning.py",
+          "type": "code",
+          "size_bytes": 22992,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:f16a6fd9928835d807542dbd44c8cf2acd2b80fe432d6d1c88ab4cd7a5064bd1",
+          "metadata": {
+            "lines": 587,
+            "functions": 15,
+            "classes": 5
+          }
+        },
+        {
+          "path": "src/integrations/__init__.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/src/integrations/__init__.py",
+          "type": "code",
+          "size_bytes": 0,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "metadata": {
+            "lines": 1,
+            "functions": 0,
+            "classes": 0
+          }
+        },
+        {
+          "path": "src/mcp/vision_cortex_integration.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/src/mcp/vision_cortex_integration.py",
+          "type": "code",
+          "size_bytes": 15259,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:19941d50cf910809ec4c1fd40df519c1f23cb3b5763da440b15cb37dcfc1d479",
+          "metadata": {
+            "lines": 394,
+            "functions": 13,
+            "classes": 5
+          }
+        },
+        {
+          "path": "src/predictions/__init__.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/src/predictions/__init__.py",
+          "type": "code",
+          "size_bytes": 0,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "metadata": {
+            "lines": 1,
+            "functions": 0,
+            "classes": 0
+          }
+        },
+        {
+          "path": "src/predictions/vertex_automl_engine.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/src/predictions/vertex_automl_engine.py",
+          "type": "code",
+          "size_bytes": 17872,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:6f46f152afb8b9b30935e0abee93b555839f028117eac311375e6a9e45cd0e47",
+          "metadata": {
+            "lines": 540,
+            "functions": 20,
+            "classes": 8
+          }
+        },
+        {
+          "path": "src/scrapers/__init__.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/src/scrapers/__init__.py",
+          "type": "code",
+          "size_bytes": 0,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "metadata": {
+            "lines": 1,
+            "functions": 0,
+            "classes": 0
+          }
+        },
+        {
+          "path": "src/scrapers/daily_scraper_pipeline.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/src/scrapers/daily_scraper_pipeline.py",
+          "type": "code",
+          "size_bytes": 19647,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:c2fa25e14dcddb79cd6a8f3628de3b38f6aae11a5a3f0bf5a58efa57924a4e9e",
+          "metadata": {
+            "lines": 597,
+            "functions": 27,
+            "classes": 13
+          }
+        },
+        {
+          "path": "src/simulations/__init__.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/src/simulations/__init__.py",
+          "type": "code",
+          "size_bytes": 0,
+          "last_modified": "2026-01-11T23:04:14.746597",
+          "checksum": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "metadata": {
+            "lines": 1,
+            "functions": 0,
+            "classes": 0
+          }
+        },
+        {
+          "path": "src/simulations/timeline_simulator.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/src/simulations/timeline_simulator.py",
+          "type": "code",
+          "size_bytes": 23455,
+          "last_modified": "2026-01-11T23:04:14.750597",
+          "checksum": "sha256:a09352dd4cd96612b728a5db61d18a55c2484467e83f222e443552f9e32f975b",
+          "metadata": {
+            "lines": 631,
+            "functions": 16,
+            "classes": 8
+          }
+        },
+        {
+          "path": "src/trading/__init__.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/src/trading/__init__.py",
+          "type": "code",
+          "size_bytes": 0,
+          "last_modified": "2026-01-11T23:04:14.750597",
+          "checksum": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "metadata": {
+            "lines": 1,
+            "functions": 0,
+            "classes": 0
+          }
+        },
+        {
+          "path": "src/trading/day_trading_engine.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/src/trading/day_trading_engine.py",
+          "type": "code",
+          "size_bytes": 25369,
+          "last_modified": "2026-01-11T23:04:14.750597",
+          "checksum": "sha256:f2a4fef4c38b4c140cfdb8468ebbf00d8f1805b9afa35f078c67352ba17943fd",
+          "metadata": {
+            "lines": 646,
+            "functions": 16,
+            "classes": 9
+          }
+        },
+        {
+          "path": "src/trading/paper_trading_engine.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/src/trading/paper_trading_engine.py",
+          "type": "code",
+          "size_bytes": 31919,
+          "last_modified": "2026-01-11T23:04:14.750597",
+          "checksum": "sha256:1c14b693f0e7a9a34cbb0473a4fe5f361a01820c00dcb2269660172c7e6e3518",
+          "metadata": {
+            "lines": 898,
+            "functions": 31,
+            "classes": 13
+          }
+        },
+        {
+          "path": "src/trading/trading_mode_controller.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/src/trading/trading_mode_controller.py",
+          "type": "code",
+          "size_bytes": 20197,
+          "last_modified": "2026-01-11T23:04:14.750597",
+          "checksum": "sha256:2ab60991d80fdbfe442679296a6ea0fb1b105f8755e03070b78b8f2f56883b2b",
+          "metadata": {
+            "lines": 586,
+            "functions": 33,
+            "classes": 10
+          }
+        },
+        {
+          "path": "src/validation/__init__.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/src/validation/__init__.py",
+          "type": "code",
+          "size_bytes": 0,
+          "last_modified": "2026-01-11T23:04:14.750597",
+          "checksum": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "metadata": {
+            "lines": 1,
+            "functions": 0,
+            "classes": 0
+          }
+        },
+        {
+          "path": "config/model_weights.json",
+          "absolute_path": "/home/ubuntu/ai-prophet/config/model_weights.json",
+          "type": "config",
+          "size_bytes": 352,
+          "last_modified": "2026-01-11T23:07:06.360235",
+          "checksum": "sha256:591ca0701df7c25a84aab6df1b871d562aa0f43b8896c14d59776d02b5db307a",
+          "metadata": {
+            "keys": [
+              "model_weights",
+              "last_updated",
+              "previous_weights",
+              "adjustments_made",
+              "update_reason"
+            ]
+          }
+        },
+        {
+          "path": "reflection/core/reflection_engine.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/reflection/core/reflection_engine.py",
+          "type": "code",
+          "size_bytes": 12941,
+          "last_modified": "2026-01-12T04:02:04.476217",
+          "checksum": "sha256:c8213164d1bb567c6bad0a562be17538aed958b9a9fba1b69429867a632bb2ca",
+          "metadata": {
+            "lines": 362,
+            "functions": 16,
+            "classes": 5
+          }
+        },
+        {
+          "path": "reflection/core/agent_interface.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/reflection/core/agent_interface.py",
+          "type": "code",
+          "size_bytes": 9433,
+          "last_modified": "2026-01-12T04:02:04.476217",
+          "checksum": "sha256:f72f6a815792255c90f6fba4036026cd7afb098bcaa97a569a84a6750ffcd1ce",
+          "metadata": {
+            "lines": 308,
+            "functions": 15,
+            "classes": 5
+          }
+        },
+        {
+          "path": "reflection/core/config_manager.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/reflection/core/config_manager.py",
+          "type": "code",
+          "size_bytes": 8723,
+          "last_modified": "2026-01-12T04:02:04.480217",
+          "checksum": "sha256:dda2fae60ca4f7ad17f133fad473a75ab4c5d51ab61bc568f905e6d733cec673",
+          "metadata": {
+            "lines": 258,
+            "functions": 19,
+            "classes": 2
+          }
+        },
+        {
+          "path": "reflection/core/__init__.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/reflection/core/__init__.py",
+          "type": "code",
+          "size_bytes": 599,
+          "last_modified": "2026-01-12T04:02:04.480217",
+          "checksum": "sha256:5dc03e98f146f37e13444fe3fcd9dd15e3a5266b57314c8297cf6c3593cce8f5",
+          "metadata": {
+            "lines": 26,
+            "functions": 0,
+            "classes": 0
+          }
+        },
+        {
+          "path": "reflection/modules/inventory/asset_tracker.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/reflection/modules/inventory/asset_tracker.py",
+          "type": "code",
+          "size_bytes": 10995,
+          "last_modified": "2026-01-12T04:02:04.480217",
+          "checksum": "sha256:48e889d03c892c6d12158bb5198574497cba704ab252cbd7dc0a0ef886b594b4",
+          "metadata": {
+            "lines": 334,
+            "functions": 15,
+            "classes": 2
+          }
+        },
+        {
+          "path": "reflection/modules/inventory/dependency_mapper.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/reflection/modules/inventory/dependency_mapper.py",
+          "type": "code",
+          "size_bytes": 9836,
+          "last_modified": "2026-01-12T04:02:04.480217",
+          "checksum": "sha256:8cd86fa466c407ad13f2ce27de0549e0b3247378ab2d7d13c62906748252295e",
+          "metadata": {
+            "lines": 282,
+            "functions": 14,
+            "classes": 1
+          }
+        },
+        {
+          "path": "reflection/modules/inventory/__init__.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/reflection/modules/inventory/__init__.py",
+          "type": "code",
+          "size_bytes": 6501,
+          "last_modified": "2026-01-12T04:02:04.480217",
+          "checksum": "sha256:b1fabe77fe5ac7c28bb0bde25fa0d19f2f07103860f295171a2a5cb646da7b09",
+          "metadata": {
+            "lines": 192,
+            "functions": 5,
+            "classes": 1
+          }
+        },
+        {
+          "path": "reflection/modules/taxonomy/__init__.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/reflection/modules/taxonomy/__init__.py",
+          "type": "code",
+          "size_bytes": 14311,
+          "last_modified": "2026-01-12T04:02:04.480217",
+          "checksum": "sha256:ac138c660557ec2b411a0888ee2396732a16029eaa97f788a6b126bef9ae47e7",
+          "metadata": {
+            "lines": 385,
+            "functions": 14,
+            "classes": 1
+          }
+        },
+        {
+          "path": "reflection/modules/documentation/__init__.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/reflection/modules/documentation/__init__.py",
+          "type": "code",
+          "size_bytes": 17890,
+          "last_modified": "2026-01-12T04:02:04.480217",
+          "checksum": "sha256:22174a516c1f7c70d894b25024532ed31705f406acb95378daf9f1da020e6184",
+          "metadata": {
+            "lines": 439,
+            "functions": 9,
+            "classes": 1
+          }
+        },
+        {
+          "path": "reflection/modules/evolution/__init__.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/reflection/modules/evolution/__init__.py",
+          "type": "code",
+          "size_bytes": 16354,
+          "last_modified": "2026-01-12T04:02:04.480217",
+          "checksum": "sha256:2ff9d831a3044b8cccdf80997d67e2fc3bebcefa4fbf06d9cd239ff4450ae7c3",
+          "metadata": {
+            "lines": 426,
+            "functions": 11,
+            "classes": 1
+          }
+        },
+        {
+          "path": "reflection/modules/reporting/__init__.py",
+          "absolute_path": "/home/ubuntu/ai-prophet/reflection/modules/reporting/__init__.py",
+          "type": "code",
+          "size_bytes": 12274,
+          "last_modified": "2026-01-12T04:02:04.480217",
+          "checksum": "sha256:0bcd755542e5eac80b7e7eea246a95830d79740d3bd8b3a95cb295d6db8644e5",
+          "metadata": {
+            "lines": 337,
+            "functions": 10,
+            "classes": 1
+          }
+        }
+      ]
+    },
+    "dependencies": {
+      "internal_dependencies": {
+        "main.py": [
+          "core.prophet_core",
+          "predictions.vertex_automl_engine",
+          "api.dashboard_api",
+          "core.recursive_learning",
+          "trading.paper_trading_engine",
+          "scrapers.daily_scraper_pipeline",
+          "simulations.timeline_simulator"
+        ],
+        "run_day_trading.py": [
+          "core.prophet_core",
+          "predictions.vertex_automl_engine",
+          "trading.day_trading_engine",
+          "core.recursive_learning",
+          "trading.paper_trading_engine",
+          "scrapers.daily_scraper_pipeline",
+          "simulations.timeline_simulator"
+        ],
+        "reflection_integration.py": [
+          "core"
+        ],
+        "run_reflection.py": [
+          "reflection_integration"
+        ],
+        "src/api/dashboard_api.py": [
+          "core.recursive_learning",
+          "trading.paper_trading_engine",
+          "simulations.timeline_simulator"
+        ]
+      },
+      "external_dependencies": [
+        "abc",
+        "agent_interface",
+        "argparse",
+        "asset_tracker",
+        "ast",
+        "asyncio",
+        "collections",
+        "concurrent",
+        "config_manager",
+        "dataclasses",
+        "datetime",
+        "decimal",
+        "dependency_mapper",
+        "enum",
+        "fastapi",
+        "hashlib",
+        "importlib",
+        "json",
+        "logging",
+        "numpy",
+        "os",
+        "pathlib",
+        "pydantic",
+        "random",
+        "re",
+        "reflection_engine",
+        "statistics",
+        "subprocess",
+        "sys",
+        "typing",
+        "uuid",
+        "uvicorn",
+        "yaml"
+      ],
+      "statistics": {
+        "total_internal_files": 5,
+        "total_external_packages": 33,
+        "total_internal_imports": 19
+      },
+      "most_imported_modules": [
+        {
+          "module": "core.recursive_learning",
+          "import_count": 3
+        },
+        {
+          "module": "trading.paper_trading_engine",
+          "import_count": 3
+        },
+        {
+          "module": "simulations.timeline_simulator",
+          "import_count": 3
+        },
+        {
+          "module": "core.prophet_core",
+          "import_count": 2
+        },
+        {
+          "module": "predictions.vertex_automl_engine",
+          "import_count": 2
+        },
+        {
+          "module": "scrapers.daily_scraper_pipeline",
+          "import_count": 2
+        },
+        {
+          "module": "api.dashboard_api",
+          "import_count": 1
+        },
+        {
+          "module": "trading.day_trading_engine",
+          "import_count": 1
+        },
+        {
+          "module": "core",
+          "import_count": 1
+        },
+        {
+          "module": "reflection_integration",
+          "import_count": 1
+        }
+      ],
+      "most_dependent_files": [
+        {
+          "file": "main.py",
+          "dependency_count": 7
+        },
+        {
+          "file": "run_day_trading.py",
+          "dependency_count": 7
+        },
+        {
+          "file": "src/api/dashboard_api.py",
+          "dependency_count": 3
+        },
+        {
+          "file": "reflection_integration.py",
+          "dependency_count": 1
+        },
+        {
+          "file": "run_reflection.py",
+          "dependency_count": 1
+        }
+      ],
+      "dependency_graph": {
+        "nodes": [
+          {
+            "id": "main.py",
+            "type": "internal_file"
+          },
+          {
+            "id": "run_day_trading.py",
+            "type": "internal_file"
+          },
+          {
+            "id": "reflection_integration.py",
+            "type": "internal_file"
+          },
+          {
+            "id": "run_reflection.py",
+            "type": "internal_file"
+          },
+          {
+            "id": "src/api/dashboard_api.py",
+            "type": "internal_file"
+          }
+        ],
+        "edges": [
+          {
+            "source": "main.py",
+            "target": "core.prophet_core",
+            "type": "imports"
+          },
+          {
+            "source": "main.py",
+            "target": "predictions.vertex_automl_engine",
+            "type": "imports"
+          },
+          {
+            "source": "main.py",
+            "target": "api.dashboard_api",
+            "type": "imports"
+          },
+          {
+            "source": "main.py",
+            "target": "core.recursive_learning",
+            "type": "imports"
+          },
+          {
+            "source": "main.py",
+            "target": "trading.paper_trading_engine",
+            "type": "imports"
+          },
+          {
+            "source": "main.py",
+            "target": "scrapers.daily_scraper_pipeline",
+            "type": "imports"
+          },
+          {
+            "source": "main.py",
+            "target": "simulations.timeline_simulator",
+            "type": "imports"
+          },
+          {
+            "source": "run_day_trading.py",
+            "target": "core.prophet_core",
+            "type": "imports"
+          },
+          {
+            "source": "run_day_trading.py",
+            "target": "predictions.vertex_automl_engine",
+            "type": "imports"
+          },
+          {
+            "source": "run_day_trading.py",
+            "target": "trading.day_trading_engine",
+            "type": "imports"
+          },
+          {
+            "source": "run_day_trading.py",
+            "target": "core.recursive_learning",
+            "type": "imports"
+          },
+          {
+            "source": "run_day_trading.py",
+            "target": "trading.paper_trading_engine",
+            "type": "imports"
+          },
+          {
+            "source": "run_day_trading.py",
+            "target": "scrapers.daily_scraper_pipeline",
+            "type": "imports"
+          },
+          {
+            "source": "run_day_trading.py",
+            "target": "simulations.timeline_simulator",
+            "type": "imports"
+          },
+          {
+            "source": "reflection_integration.py",
+            "target": "core",
+            "type": "imports"
+          },
+          {
+            "source": "run_reflection.py",
+            "target": "reflection_integration",
+            "type": "imports"
+          },
+          {
+            "source": "src/api/dashboard_api.py",
+            "target": "core.recursive_learning",
+            "type": "imports"
+          },
+          {
+            "source": "src/api/dashboard_api.py",
+            "target": "trading.paper_trading_engine",
+            "type": "imports"
+          },
+          {
+            "source": "src/api/dashboard_api.py",
+            "target": "simulations.timeline_simulator",
+            "type": "imports"
+          }
+        ]
+      }
+    },
+    "version_info": {
+      "has_git": true,
+      "current_branch": "main",
+      "latest_commit": {
+        "hash": "a417fd78df57de99711c0375a5a4aa65bfd89bae",
+        "author": "AI Prophet System",
+        "email": "ai-prophet@infinityxone.systems",
+        "timestamp": "1768190885",
+        "message": "\ud83d\udd2e AI Prophet Daily Self-Reflection - Jan 11, 2026"
+      },
+      "uncommitted_changes": true,
+      "total_commits": 11
+    }
+  },
+  "taxonomy": {
+    "timestamp": "2026-01-12T04:03:07.071280",
+    "agent_classification": {
+      "type": "trading_agent_system",
+      "domain": "financial",
+      "tier": "development",
+      "maturity": "stable",
+      "complexity": "high",
+      "capabilities": [
+        "prediction",
+        "trading",
+        "learning",
+        "self-reflection"
+      ]
+    },
+    "repository_analysis": {
+      "has_repository": true,
+      "repository_name": "ai-prophet",
+      "is_system": true,
+      "compliant": false,
+      "issues": [
+        "System repository should end with '-system'"
+      ],
+      "suggestions": [
+        "Rename to: ai-prophet-system"
+      ]
+    },
+    "naming_violations": [],
+    "taxonomy_tree": {
+      "root": "/home/ubuntu/ai-prophet",
+      "children": [
+        {
+          "name": "config",
+          "type": "directory",
+          "classification": "config",
+          "path": "config"
+        },
+        {
+          "name": "data",
+          "type": "directory",
+          "classification": "data",
+          "path": "data"
+        },
+        {
+          "name": "reflection",
+          "type": "directory",
+          "classification": "other",
+          "path": "reflection"
+        },
+        {
+          "name": "src",
+          "type": "directory",
+          "classification": "other",
+          "path": "src"
+        }
+      ]
+    },
+    "recommendations": [
+      "\ud83c\udff7\ufe0f  Repository: System repository should end with '-system'",
+      "   \ud83d\udca1 Rename to: ai-prophet-system"
+    ]
+  },
+  "documentation": {
+    "timestamp": "2026-01-12T04:03:07.244847",
+    "readme_path": "/home/ubuntu/ai-prophet/README.md",
+    "changelog_path": "/home/ubuntu/ai-prophet/CHANGELOG.md",
+    "api_documentation": {
+      "classes": [
+        {
+          "name": "AIProphet",
+          "file": "main.py",
+          "docstring": "AI Prophet - The Prediction Wizard\n\nA fully autonomous prediction system that:\n1. Scrapes daily market data and events\n2. Generates predictions using proven models\n3. Simulates multiple future timelines\n4. Trades on predictions (paper trading)\n5. Tracks accuracy and learns from outcomes\n6. Self-reflects and evolves daily\n\nAccuracy is everything. If you're a talker but not accurate,\nyou're just a chatbot. AI Prophet is a wizard."
+        },
+        {
+          "name": "AIProphetDayTrader",
+          "file": "run_day_trading.py",
+          "docstring": "AI Prophet Day Trading System\n\nProfessional day trading with:\n- 2-hour execution cycles\n- Pro trading windows (Opening Bell, Power Hour)\n- Continuous self-reflection\n- Recursive learning from every trade"
+        },
+        {
+          "name": "DailySelfReflection",
+          "file": "daily_self_reflection.py",
+          "docstring": "No documentation"
+        },
+        {
+          "name": "ModelWeightOptimizer",
+          "file": "update_model_weights.py",
+          "docstring": "No documentation"
+        },
+        {
+          "name": "AIProphetAgent",
+          "file": "reflection_integration.py",
+          "docstring": "AI Prophet with Self-Reflection Integration"
+        },
+        {
+          "name": "CreatePortfolioRequest",
+          "file": "src/api/dashboard_api.py",
+          "docstring": "No documentation"
+        },
+        {
+          "name": "PlaceOrderRequest",
+          "file": "src/api/dashboard_api.py",
+          "docstring": "No documentation"
+        },
+        {
+          "name": "SetTradingModeRequest",
+          "file": "src/api/dashboard_api.py",
+          "docstring": "No documentation"
+        },
+        {
+          "name": "PredictionRequest",
+          "file": "src/api/dashboard_api.py",
+          "docstring": "No documentation"
+        },
+        {
+          "name": "SimulationRequest",
+          "file": "src/api/dashboard_api.py",
+          "docstring": "No documentation"
+        },
+        {
+          "name": "ConnectionManager",
+          "file": "src/api/dashboard_api.py",
+          "docstring": "No documentation"
+        },
+        {
+          "name": "PredictionCategory",
+          "file": "src/core/prophet_core.py",
+          "docstring": "Top 20 Most Profitable & Helpful Prediction Categories"
+        },
+        {
+          "name": "ModelType",
+          "file": "src/core/prophet_core.py",
+          "docstring": "Proven Prediction Models with Documented Accuracy"
+        },
+        {
+          "name": "PredictionRecord",
+          "file": "src/core/prophet_core.py",
+          "docstring": "Immutable record of a prediction for accuracy tracking"
+        },
+        {
+          "name": "SimulationTimeline",
+          "file": "src/core/prophet_core.py",
+          "docstring": "Represents a possible future timeline from simulation"
+        },
+        {
+          "name": "AccuracyTracker",
+          "file": "src/core/prophet_core.py",
+          "docstring": "Tracks and persists all predictions for accuracy measurement.\nAI Prophet's core identity - accuracy is everything."
+        },
+        {
+          "name": "PredictionModel",
+          "file": "src/core/prophet_core.py",
+          "docstring": "Abstract base class for prediction models"
+        },
+        {
+          "name": "LSTMModel",
+          "file": "src/core/prophet_core.py",
+          "docstring": "LSTM Model - 93%+ accuracy for stock prediction"
+        },
+        {
+          "name": "TransformerModel",
+          "file": "src/core/prophet_core.py",
+          "docstring": "Transformer Model - 72.82% test accuracy"
+        },
+        {
+          "name": "ProphetModel",
+          "file": "src/core/prophet_core.py",
+          "docstring": "Meta Prophet - 5-11% error rate"
+        },
+        {
+          "name": "AIProphet",
+          "file": "src/core/prophet_core.py",
+          "docstring": "AI PROPHET - The Prediction Wizard\n===================================\n\nCore Identity:\n- Accuracy is EVERYTHING\n- Not a chatbot - a wizard with quantum AI thinking\n- Every prediction is calculated and tracked\n- Always pulls up past data to prove accuracy\n- Self-reflects daily to evolve and improve\n\nCapabilities:\n- Multi-timeline simulation\n- Parallel instance processing (MAP)\n- Cross-validation with historical data\n- Event-driven market analysis\n- Crypto pattern recognition"
+        },
+        {
+          "name": "LearningSignal",
+          "file": "src/core/recursive_learning.py",
+          "docstring": "Types of learning signals from trading outcomes"
+        },
+        {
+          "name": "PredictionOutcome",
+          "file": "src/core/recursive_learning.py",
+          "docstring": "Outcome of a prediction after it was traded on"
+        },
+        {
+          "name": "ModelPerformance",
+          "file": "src/core/recursive_learning.py",
+          "docstring": "Performance metrics for a prediction model"
+        },
+        {
+          "name": "SymbolInsight",
+          "file": "src/core/recursive_learning.py",
+          "docstring": "Insights about prediction performance for a specific symbol"
+        },
+        {
+          "name": "RecursiveLearningEngine",
+          "file": "src/core/recursive_learning.py",
+          "docstring": "AI Prophet's Recursive Learning Engine\n\nThis is the core of AI Prophet's self-improvement capability.\nIt creates a feedback loop between predictions and trading outcomes."
+        },
+        {
+          "name": "BrainType",
+          "file": "src/mcp/vision_cortex_integration.py",
+          "docstring": "Types of AI brains in Vision Cortex"
+        },
+        {
+          "name": "BrainPerspective",
+          "file": "src/mcp/vision_cortex_integration.py",
+          "docstring": "A perspective from one of the AI brains"
+        },
+        {
+          "name": "ConsensusView",
+          "file": "src/mcp/vision_cortex_integration.py",
+          "docstring": "Consensus view from all brains"
+        },
+        {
+          "name": "MCPClient",
+          "file": "src/mcp/vision_cortex_integration.py",
+          "docstring": "Client for interacting with MCP servers"
+        },
+        {
+          "name": "VisionCortexIntegration",
+          "file": "src/mcp/vision_cortex_integration.py",
+          "docstring": "Vision Cortex Integration for AI Prophet\n\nProvides multi-brain prediction capabilities by simulating\ndifferent AI perspectives and combining them for consensus."
+        },
+        {
+          "name": "AutoMLModelType",
+          "file": "src/predictions/vertex_automl_engine.py",
+          "docstring": "AutoML Model Types for different prediction tasks"
+        },
+        {
+          "name": "ForecastHorizon",
+          "file": "src/predictions/vertex_automl_engine.py",
+          "docstring": "Forecast horizons with documented accuracy rates"
+        },
+        {
+          "name": "VertexAIConfig",
+          "file": "src/predictions/vertex_automl_engine.py",
+          "docstring": "Configuration for Vertex AI"
+        },
+        {
+          "name": "ForecastResult",
+          "file": "src/predictions/vertex_automl_engine.py",
+          "docstring": "Result from AutoML forecasting"
+        },
+        {
+          "name": "VertexAIForecaster",
+          "file": "src/predictions/vertex_automl_engine.py",
+          "docstring": "Vertex AI Time Series Forecasting Engine\n\nUses Google's AutoML which outperforms 92% of hand-tuned models.\nAutomated feature engineering and model selection."
+        },
+        {
+          "name": "GeminiPredictor",
+          "file": "src/predictions/vertex_automl_engine.py",
+          "docstring": "Gemini AI Integration for Advanced Predictions\n\nUses Google's Gemini for:\n- Natural language reasoning about predictions\n- Multi-modal analysis (text + charts)\n- Complex pattern recognition"
+        },
+        {
+          "name": "AutoMLEnsemble",
+          "file": "src/predictions/vertex_automl_engine.py",
+          "docstring": "Ensemble of AutoML Models for Higher Accuracy\n\nCombines multiple models to reduce individual weaknesses\nand improve overall prediction accuracy."
+        },
+        {
+          "name": "VertexAutoMLEngine",
+          "file": "src/predictions/vertex_automl_engine.py",
+          "docstring": "Main AutoML Engine for AI Prophet\n\nOrchestrates:\n- Vertex AI forecasting\n- Gemini reasoning\n- Ensemble predictions\n- Model management"
+        },
+        {
+          "name": "DataSourceType",
+          "file": "src/scrapers/daily_scraper_pipeline.py",
+          "docstring": "Types of data sources for scraping"
+        },
+        {
+          "name": "ScrapedData",
+          "file": "src/scrapers/daily_scraper_pipeline.py",
+          "docstring": "Container for scraped data"
+        },
+        {
+          "name": "PipelineResult",
+          "file": "src/scrapers/daily_scraper_pipeline.py",
+          "docstring": "Result from the prediction pipeline"
+        },
+        {
+          "name": "DataScraper",
+          "file": "src/scrapers/daily_scraper_pipeline.py",
+          "docstring": "Abstract base class for data scrapers"
+        },
+        {
+          "name": "FinancialNewsScraper",
+          "file": "src/scrapers/daily_scraper_pipeline.py",
+          "docstring": "Scrapes financial news from multiple sources"
+        },
+        {
+          "name": "CryptoDataScraper",
+          "file": "src/scrapers/daily_scraper_pipeline.py",
+          "docstring": "Scrapes cryptocurrency data - AI Prophet's specialty"
+        },
+        {
+          "name": "MarketDataScraper",
+          "file": "src/scrapers/daily_scraper_pipeline.py",
+          "docstring": "Scrapes stock market data"
+        },
+        {
+          "name": "EconomicCalendarScraper",
+          "file": "src/scrapers/daily_scraper_pipeline.py",
+          "docstring": "Scrapes economic calendar events"
+        },
+        {
+          "name": "ShortInterestScraper",
+          "file": "src/scrapers/daily_scraper_pipeline.py",
+          "docstring": "Scrapes short interest data for squeeze detection"
+        },
+        {
+          "name": "SocialSentimentScraper",
+          "file": "src/scrapers/daily_scraper_pipeline.py",
+          "docstring": "Scrapes social media sentiment"
+        },
+        {
+          "name": "DailyScraperPipeline",
+          "file": "src/scrapers/daily_scraper_pipeline.py",
+          "docstring": "AI Prophet's Daily Scraper Pipeline\n====================================\n\nFull E2E pipeline that runs daily at 5 AM:\n1. Scrape all data sources in parallel\n2. Process and validate data\n3. Feed to prediction models\n4. Generate actionable insights\n5. Store results for accuracy tracking"
+        },
+        {
+          "name": "BrowserDataFetcher",
+          "file": "src/scrapers/daily_scraper_pipeline.py",
+          "docstring": "Real-time browser data fetcher for up-to-date information.\nUses headless browser for dynamic content."
+        },
+        {
+          "name": "TimelineType",
+          "file": "src/simulations/timeline_simulator.py",
+          "docstring": "Types of simulated timelines"
+        },
+        {
+          "name": "EventType",
+          "file": "src/simulations/timeline_simulator.py",
+          "docstring": "Types of market-moving events"
+        },
+        {
+          "name": "SimulatedEvent",
+          "file": "src/simulations/timeline_simulator.py",
+          "docstring": "An event in a simulated timeline"
+        },
+        {
+          "name": "TimelineState",
+          "file": "src/simulations/timeline_simulator.py",
+          "docstring": "State of an asset at a point in a timeline"
+        },
+        {
+          "name": "SimulatedTimeline",
+          "file": "src/simulations/timeline_simulator.py",
+          "docstring": "A complete simulated future timeline"
+        },
+        {
+          "name": "TheoryEngine",
+          "file": "src/simulations/timeline_simulator.py",
+          "docstring": "Theory-backed prediction engine.\nUses established financial theories with historical validation."
+        },
+        {
+          "name": "EventGenerator",
+          "file": "src/simulations/timeline_simulator.py",
+          "docstring": "Generates realistic market events for simulations"
+        },
+        {
+          "name": "TimelineSimulator",
+          "file": "src/simulations/timeline_simulator.py",
+          "docstring": "AI Prophet's Multi-Timeline Simulation Engine\n\nSimulates multiple possible futures in parallel (MAP instances)\nand tracks them for accuracy validation."
+        },
+        {
+          "name": "TradingSession",
+          "file": "src/trading/day_trading_engine.py",
+          "docstring": "Professional trading sessions"
+        },
+        {
+          "name": "AssetClass",
+          "file": "src/trading/day_trading_engine.py",
+          "docstring": "Asset classes for day trading"
+        },
+        {
+          "name": "TradingWindow",
+          "file": "src/trading/day_trading_engine.py",
+          "docstring": "A trading window with optimal parameters"
+        },
+        {
+          "name": "DayTradingConfig",
+          "file": "src/trading/day_trading_engine.py",
+          "docstring": "Configuration for professional day trading"
+        },
+        {
+          "name": "ProTradingSchedule",
+          "file": "src/trading/day_trading_engine.py",
+          "docstring": "Professional trading schedule based on how the pros do it.\nOptimized for maximum profit potential and risk management."
+        },
+        {
+          "name": "DayTrade",
+          "file": "src/trading/day_trading_engine.py",
+          "docstring": "A day trade record"
+        },
+        {
+          "name": "DayTradingEngine",
+          "file": "src/trading/day_trading_engine.py",
+          "docstring": "Professional Day Trading Engine for AI Prophet.\nExecutes trades based on pro-level timing and strategies."
+        },
+        {
+          "name": "TradingMode",
+          "file": "src/trading/paper_trading_engine.py",
+          "docstring": "Trading control modes"
+        },
+        {
+          "name": "OrderType",
+          "file": "src/trading/paper_trading_engine.py",
+          "docstring": "Types of orders"
+        },
+        {
+          "name": "OrderSide",
+          "file": "src/trading/paper_trading_engine.py",
+          "docstring": "Order side"
+        },
+        {
+          "name": "OrderStatus",
+          "file": "src/trading/paper_trading_engine.py",
+          "docstring": "Order status"
+        },
+        {
+          "name": "AssetClass",
+          "file": "src/trading/paper_trading_engine.py",
+          "docstring": "Asset classes for trading"
+        },
+        {
+          "name": "Asset",
+          "file": "src/trading/paper_trading_engine.py",
+          "docstring": "Tradeable asset"
+        },
+        {
+          "name": "Position",
+          "file": "src/trading/paper_trading_engine.py",
+          "docstring": "A position in an asset"
+        },
+        {
+          "name": "Order",
+          "file": "src/trading/paper_trading_engine.py",
+          "docstring": "A trading order"
+        },
+        {
+          "name": "Trade",
+          "file": "src/trading/paper_trading_engine.py",
+          "docstring": "A completed trade"
+        },
+        {
+          "name": "PortfolioStats",
+          "file": "src/trading/paper_trading_engine.py",
+          "docstring": "Portfolio statistics"
+        },
+        {
+          "name": "Portfolio",
+          "file": "src/trading/paper_trading_engine.py",
+          "docstring": "User or AI Prophet portfolio for paper trading.\nTracks all positions, orders, trades, and statistics."
+        },
+        {
+          "name": "PaperTradingEngine",
+          "file": "src/trading/paper_trading_engine.py",
+          "docstring": "Paper Trading Engine for AI Prophet\n\nManages:\n- User portfolios\n- AI Prophet's own portfolio (recursive learning)\n- Order execution simulation\n- Real-time price feeds\n- Trading mode switching"
+        },
+        {
+          "name": "AITradingAgent",
+          "file": "src/trading/paper_trading_engine.py",
+          "docstring": "AI Prophet's autonomous trading agent.\nMakes trading decisions based on predictions and executes them."
+        },
+        {
+          "name": "TradingMode",
+          "file": "src/trading/trading_mode_controller.py",
+          "docstring": "Trading control modes"
+        },
+        {
+          "name": "SignalStrength",
+          "file": "src/trading/trading_mode_controller.py",
+          "docstring": "Strength of trading signals"
+        },
+        {
+          "name": "TradingSignal",
+          "file": "src/trading/trading_mode_controller.py",
+          "docstring": "A trading signal from AI Prophet"
+        },
+        {
+          "name": "ModeConfig",
+          "file": "src/trading/trading_mode_controller.py",
+          "docstring": "Configuration for a trading mode"
+        },
+        {
+          "name": "TradingModeStrategy",
+          "file": "src/trading/trading_mode_controller.py",
+          "docstring": "Abstract base class for trading mode strategies"
+        },
+        {
+          "name": "FullAutoStrategy",
+          "file": "src/trading/trading_mode_controller.py",
+          "docstring": "Full Auto Trading Strategy\n\nAI Prophet trades autonomously with zero human intervention.\nAll signals meeting criteria are executed immediately."
+        },
+        {
+          "name": "HybridStrategy",
+          "file": "src/trading/trading_mode_controller.py",
+          "docstring": "Hybrid Trading Strategy\n\nAI Prophet suggests trades, user approves or rejects.\nCombines AI intelligence with human judgment."
+        },
+        {
+          "name": "ManualStrategy",
+          "file": "src/trading/trading_mode_controller.py",
+          "docstring": "Manual Trading Strategy\n\nUser has full control. AI Prophet provides insights and suggestions\nbut does not execute any trades automatically."
+        },
+        {
+          "name": "TradingModeController",
+          "file": "src/trading/trading_mode_controller.py",
+          "docstring": "Main controller for trading modes.\nManages mode switching and signal processing."
+        },
+        {
+          "name": "ReflectionResult",
+          "file": "reflection/core/reflection_engine.py",
+          "docstring": "Results from a reflection cycle"
+        },
+        {
+          "name": "ReflectionEngine",
+          "file": "reflection/core/reflection_engine.py",
+          "docstring": "Universal Self-Reflection Engine\n\nOrchestrates the self-reflection process for any AI agent by:\n1. Loading agent configuration\n2. Executing enabled reflection modules\n3. Collecting and aggregating results\n4. Generating reports and insights\n5. Applying optimizations (with approval if needed)"
+        },
+        {
+          "name": "ReflectionScheduler",
+          "file": "reflection/core/reflection_engine.py",
+          "docstring": "Scheduler for automated reflection cycles"
+        },
+        {
+          "name": "AgentMetadata",
+          "file": "reflection/core/agent_interface.py",
+          "docstring": "Standard metadata structure for agents"
+        },
+        {
+          "name": "PerformanceMetrics",
+          "file": "reflection/core/agent_interface.py",
+          "docstring": "Standard performance metrics structure"
+        },
+        {
+          "name": "AgentAsset",
+          "file": "reflection/core/agent_interface.py",
+          "docstring": "Represents a single agent asset (file, model, config, etc.)"
+        },
+        {
+          "name": "AgentInterface",
+          "file": "reflection/core/agent_interface.py",
+          "docstring": "Abstract interface for AI agents to integrate with Universal Self-Reflection System\n\nAny agent that wants to use the reflection system must implement this interface."
+        },
+        {
+          "name": "BaseAgent",
+          "file": "reflection/core/agent_interface.py",
+          "docstring": "Base implementation with sensible defaults\n\nAgents can inherit from this instead of AgentInterface for convenience."
+        },
+        {
+          "name": "ReflectionConfig",
+          "file": "reflection/core/config_manager.py",
+          "docstring": "Configuration for reflection system"
+        },
+        {
+          "name": "ConfigManager",
+          "file": "reflection/core/config_manager.py",
+          "docstring": "Manages configuration for the Universal Self-Reflection System"
+        },
+        {
+          "name": "AssetTracker",
+          "file": "reflection/modules/inventory/asset_tracker.py",
+          "docstring": "Tracks and catalogs all agent assets"
+        },
+        {
+          "name": "DependencyMapper",
+          "file": "reflection/modules/inventory/dependency_mapper.py",
+          "docstring": "Maps dependencies for Python projects\nTracks both internal (project) and external (package) dependencies"
+        },
+        {
+          "name": "InventoryModule",
+          "file": "reflection/modules/inventory/__init__.py",
+          "docstring": "Main inventory module that orchestrates asset tracking and dependency mapping"
+        },
+        {
+          "name": "TaxonomyModule",
+          "file": "reflection/modules/taxonomy/__init__.py",
+          "docstring": "Main taxonomy module for classification and naming convention enforcement"
+        },
+        {
+          "name": "DocumentationModule",
+          "file": "reflection/modules/documentation/__init__.py",
+          "docstring": "Main documentation module that auto-generates README, changelogs, and API docs"
+        },
+        {
+          "name": "EvolutionModule",
+          "file": "reflection/modules/evolution/__init__.py",
+          "docstring": "Main evolution module that analyzes performance and generates optimizations"
+        },
+        {
+          "name": "ReportingModule",
+          "file": "reflection/modules/reporting/__init__.py",
+          "docstring": "Main reporting module that generates reports in multiple formats"
+        }
+      ],
+      "functions": [
+        {
+          "name": "main",
+          "file": "daily_self_reflection.py",
+          "docstring": "No documentation"
+        },
+        {
+          "name": "main",
+          "file": "update_model_weights.py",
+          "docstring": "No documentation"
+        },
+        {
+          "name": "main",
+          "file": "generate_final_report.py",
+          "docstring": "Main function to generate the final report."
+        },
+        {
+          "name": "setup_reflection_system",
+          "file": "reflection_integration.py",
+          "docstring": "No documentation"
+        },
+        {
+          "name": "run_daily_reflection",
+          "file": "reflection_integration.py",
+          "docstring": "No documentation"
+        },
+        {
+          "name": "main",
+          "file": "run_reflection.py",
+          "docstring": "No documentation"
+        },
+        {
+          "name": "run_server",
+          "file": "src/api/dashboard_api.py",
+          "docstring": "Run the dashboard API server"
+        },
+        {
+          "name": "main",
+          "file": "src/core/prophet_core.py",
+          "docstring": "Test AI Prophet"
+        },
+        {
+          "name": "main",
+          "file": "src/core/recursive_learning.py",
+          "docstring": "Test the Recursive Learning Engine"
+        },
+        {
+          "name": "main",
+          "file": "src/mcp/vision_cortex_integration.py",
+          "docstring": "Test Vision Cortex Integration"
+        },
+        {
+          "name": "main",
+          "file": "src/predictions/vertex_automl_engine.py",
+          "docstring": "Test the AutoML Engine"
+        },
+        {
+          "name": "main",
+          "file": "src/trading/day_trading_engine.py",
+          "docstring": "Test the Day Trading Engine"
+        },
+        {
+          "name": "main",
+          "file": "src/trading/paper_trading_engine.py",
+          "docstring": "Test the Paper Trading Engine"
+        },
+        {
+          "name": "main",
+          "file": "src/trading/trading_mode_controller.py",
+          "docstring": "Test the Trading Mode Controller"
+        }
+      ],
+      "modules": []
+    },
+    "todo_list": [
+      {
+        "type": "TODO",
+        "file": "reflection/modules/reporting/__init__.py",
+        "line": 284,
+        "text": "# TODO items"
+      }
+    ],
+    "index": {
+      "directories": [
+        {
+          "name": "config",
+          "path": "config"
+        },
+        {
+          "name": "data",
+          "path": "data"
+        },
+        {
+          "name": "reflection",
+          "path": "reflection"
+        },
+        {
+          "name": "src",
+          "path": "src"
+        }
+      ],
+      "key_files": [
+        "main.py",
+        "requirements.txt"
+      ],
+      "documentation_files": [
+        "README.md",
+        "CHANGELOG.md"
+      ]
+    }
+  },
+  "indexing": null,
+  "evolution": {
+    "timestamp": "2026-01-12T04:03:07.245484",
+    "current_metrics": {
+      "accuracy": null,
+      "precision": null,
+      "recall": null,
+      "f1_score": null,
+      "latency_ms": 250.0,
+      "error_rate": 0.0,
+      "custom_metrics": {
+        "total_predictions": null,
+        "avg_confidence": null,
+        "open_positions": 0
+      }
+    },
+    "trends": {
+      "improving": [],
+      "declining": [],
+      "stable": [],
+      "insufficient_data": [],
+      "status": "insufficient_data",
+      "message": "Need at least 2 historical data points to analyze trends"
+    },
+    "opportunities": [],
+    "optimizations": [],
+    "evolution_score": 50.0,
+    "predictions": {
+      "timeline": "7_days",
+      "confidence": 0.65,
+      "scenarios": [
+        {
+          "name": "insufficient_data",
+          "description": "Need more historical data for accurate predictions",
+          "probability": 1.0
+        }
+      ]
+    }
+  },
+  "reports": {
+    "json": "/home/ubuntu/ai-prophet/data/reflection/reflection_20260112_040307.json",
+    "markdown": "/home/ubuntu/ai-prophet/data/reflection/reflection_20260112_040307.md",
+    "html": null
+  },
+  "errors": []
+}
